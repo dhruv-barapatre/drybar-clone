@@ -2,8 +2,8 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div>
-            <div className="row">
+        <div className='navabar'>
+            <div className="row navbar align-items-center">
                 <div className="col-6">
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
@@ -22,7 +22,16 @@ const Navbar = () => {
                         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"></div>
                     </div>
                 </div>
-                <div className="col-6"></div>
+                <div className="col-6">
+                    <div className="icons">
+                        <i class="bi bi-person"></i>
+                        <i class="bi bi-search"></i>
+                        <i class="bi bi-geo-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="https://www.drybarshops.com/assets/images/logoSmall.svg" alt="" />
             </div>
         </div>
     )

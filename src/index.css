@@ -1,24 +1,42 @@
 *{
   box-sizing: border-box;
-}.row{
-  width: 100%;
 }
 
+
+.row{
+  width: 100%;
+  padding: 0;
+}
+/* navbar-=======>>>>> */
 .nav-item .nav-link {
   color: black;
-  padding: 15px 60px;
+  margin-top: 10px;
+  padding:0px 60px 15px 60px;
+  border-left: 3px solid white;
+}
+.navbar{
+  background-color: #F3F3F3;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+ background-color: transparent;
+ color: black;
+ margin-top: 0px;
+}
+.nav-pills .nav-link.active::before, .nav-pills .show>.nav-link::before{
+  content: "";
+  display: block;
+  width: 300%; 
+  height: 10px; 
+  background-color: #FFDD30;
+  background-position: center;
+  margin-left: -100%;
+}
+.navbar .col-6{
+  display: flex ;
+  justify-content: center;
   
 }
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
- background-color: white;
- color: black;
- 
-}
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link::after{
-  content: "";
-  background-color: yellow;
-  border: none;
-  position: relative;
-  height: 0%;
+.navbar .col-6 .icons i{
+  font-size: 20px;
+  padding: 10px 20px;
 }
