@@ -67,15 +67,15 @@
 }
 
 .d-b .img-2:hover {
-    animation: slow-bounce 2s forwards;
+    animation: slow-bounce 1s forwards;
 }
 
 @keyframes slow-bounce {
-    0%, 100% {
+    0% {
         transform: translateY(0);
     }
     20% {
-        transform: translateY(-60px);
+        transform: translateY(-15px);
     }
     40% {
         transform: translateY(-30px);
@@ -84,6 +84,12 @@
         transform: translateY(-45px);
     }
     80% {
+        transform: translateY(-30px);
+    }
+    90%{
         transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
     }
 }

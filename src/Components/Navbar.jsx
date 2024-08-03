@@ -1,7 +1,8 @@
 import React from 'react'
 import { IoLocation } from "react-icons/io5";
-import { CiUser } from "react-icons/ci";
+import { CiShoppingCart, CiUser } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
+import { FiShoppingBag } from 'react-icons/fi';
 
 const Navbar = () => {
   return (
@@ -26,6 +27,7 @@ const Navbar = () => {
             <CiSearch />
             <CiUser />
             <IoLocation />
+            <FiShoppingBag />
           </div>
         </div>
       </div>
