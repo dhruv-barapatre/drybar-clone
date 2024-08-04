@@ -3,6 +3,7 @@ import { IoLocation } from "react-icons/io5";
 import { CiShoppingCart, CiUser } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
 import { FiShoppingBag } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -10,15 +11,15 @@ const Navbar = () => {
       <div className="navbarr">
         <div className="row d-flex align-items-center">
           <div className="col-6">
-            <ul class="nav nav-pills " id="pills-tab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Services</button>
+            <ul className="nav nav-pills " id="pills-tab" role="tablist">
+              <li className="nav-item" role="presentation">
+                <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Services</button>
               </li><div className="line"></div>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Book</button>
+              <li className="nav-item" role="presentation">
+                <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Book</button>
               </li><div className="line"></div>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Shop</button>
+              <li className="nav-item" role="presentation">
+                <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Shop</button>
               </li>
             </ul>
 
@@ -27,14 +28,59 @@ const Navbar = () => {
             <CiSearch />
             <CiUser />
             <IoLocation />
-            <FiShoppingBag />
+            {/* <FiShoppingBag /> */}
           </div>
         </div>
       </div>
-        <div className="d-flex pt-2 pb-2 d-b justify-content-center img position-relative">
-          <img className='pt-1' src="https://www.drybar.com/static/version1721809573/frontend/Hot/default/en_US/images/logo.svg" alt="" />
-          <img className='img-2' src="https://www.drybar.com/static/version1721809573/frontend/Hot/default/en_US/images/logo-animation.svg" alt="" />
+      <div className="d-flex pt-2 pb-2 d-b justify-content-center img position-relative">
+        <img className='pt-1' src="https://www.drybar.com/static/version1721809573/frontend/Hot/default/en_US/images/logo.svg" alt="" />
+        <img className='img-2' src="https://www.drybar.com/static/version1721809573/frontend/Hot/default/en_US/images/logo-animation.svg" alt="" />
+      </div>
+      <div className="nav-link2">
+        <ul>
+          <li><Link className='black-link hair-hover'>Hair Products</Link></li>
+          <li><Link className='black-link'>Hair Tools</Link></li>
+          <li><Link className='black-link'>Benefits</Link></li>
+          <li><Link className='black-link'>Gifts & Sets</Link></li>
+          <li><Link className='black-link' style={{ color: 'black' }}>New</Link></li>
+          <li><Link className='black-link'>How To & Inspo</Link></li>
+        </ul>
+      </div>
+      <div className="hoverr">
+        <div className="hair p-5 ">
+          <div className="row justify-content-end">
+            <div className="col-5 d-flex align-items-end justify-content-end">
+              <div className="col-6">
+                <h4>Hair Products</h4>
+                <ul className='ps-2'>
+                  <li><link rel="stylesheet" href="" />All Hair Products</li>
+                  <li><link rel="stylesheet" href="" />Shampoos</li>
+                  <li><link rel="stylesheet" href="" />Conditioners</li>
+                  <li><link rel="stylesheet" href="" />Dry Shampoos</li>
+                  <li><link rel="stylesheet" href="" />Treatment & Hai Ttreatment</li>
+                  <li><link rel="stylesheet" href="" />Styling & Finishing</li>
+                  <li><link rel="stylesheet" href="" />Color Care</li>
+                </ul>
+              </div>
+              <div className="line" style={{width:"1px",backgroundColor:"black",height:"80%"}}></div>
+              <div className="col-5">
+              <ul className='ps-4'>
+                  <li><link rel="stylesheet" href="" />Best Sellers</li>
+                  <li><link rel="stylesheet" href="" />Travel size</li>
+                  <li><link rel="stylesheet" href="" />Jumbo Size</li>
+                  <li><link rel="stylesheet" href="" />Limited editions</li>
+                  <li><link rel="stylesheet" href="" />Aqua Fresca Colloections</li>
+                  <li><link rel="stylesheet" href="" />Cure Liquer collections</li>
+                  <li><link rel="stylesheet" href="" />Liquid Glass Collection</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-4">
+              <img src="https://www.drybar.com/media//wysiwyg/mega_menu/LGSerum_2024_MegaNav1_640x400.jpg" alt="" />
+            </div>
+          </div>
         </div>
+      </div>
     </>
   )
 }

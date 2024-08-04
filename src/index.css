@@ -1,3 +1,4 @@
+/* navbar first part===>>> */
 .row {
     width: 100%;
     color: black;
@@ -6,11 +7,13 @@
 .navbarr {
     background-color: #F9F9F9;
 }
-.navbarr .line{
+
+.navbarr .line {
     width: 3px;
     /* height: ; */
     background-color: white;
 }
+
 .nav-link {
     color: black;
     margin-top: 2px;
@@ -18,10 +21,12 @@
     width: 100px;
     /* transition: 0.5s; */
 }
-.navbarr .nav-item button{
+
+.navbarr .nav-item button {
     padding: 0px;
     transition: 0.5s;
 }
+
 .nav-link .nav-item {
     background-color: transparent;
     background-color: black;
@@ -50,16 +55,19 @@
 .navbarr .nav-item button {
     padding: 10px 20px;
 }
-.navbarr .col-6 svg{
+
+.navbarr .col-6 svg {
     font-size: 25px;
     color: #313131;
 }
-.navbarr .line2{
+
+.navbarr .line2 {
     width: 0.1%;
     height: 46px;
     padding: 0;
-    background-color:#FFDD30;
+    background-color: #FFDD30;
 }
+
 .d-b .img-2 {
     margin-top: -100px;
     /* Start with no animation */
@@ -67,29 +75,93 @@
 }
 
 .d-b .img-2:hover {
-    animation: slow-bounce 1s forwards;
+    animation: slow-bounce 1.5s forwards;
 }
 
 @keyframes slow-bounce {
     0% {
         transform: translateY(0);
     }
+
     20% {
-        transform: translateY(-15px);
+        transform: translateY(-35px);
     }
+
     40% {
-        transform: translateY(-30px);
-    }
-    60% {
-        transform: translateY(-45px);
-    }
-    80% {
-        transform: translateY(-30px);
-    }
-    90%{
-        transform: translateY(-15px);
-    }
-    100%{
         transform: translateY(0px);
     }
+
+    60% {
+        transform: translateY(-35px);
+    }
+
+    80% {
+        transform: translateY(0px);
+    }
+
+    90% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* second part=======> */
+
+.nav-link2 {
+    color: black;
+}
+
+.black-link {
+    color: rgb(77, 77, 77);
+    text-decoration: none;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+.black-link:hover {
+    color: black;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    /* p    adding: 0; */
+}
+
+ul li {
+    list-style: none;
+}
+
+.hair {
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    /* display: none; */
+}
+
+.hoverr ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.hoverr .hair .col-4 {
+    display: flex;
+    justify-content: start;
+}
+
+.hoverr .hair .col-4 img {
+    height: 200px;
+}
+
+.hoverr .hair{
+    /* display: none; */
+    background-color: red;
+}
+
+.hair-hover:hover + .hair {
+    /* display: visible; */
+    background-color: plum;
 }
