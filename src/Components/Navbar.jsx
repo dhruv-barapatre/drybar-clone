@@ -46,41 +46,7 @@ const Navbar = () => {
           <li><Link className='black-link'>How To & Inspo</Link></li>
         </ul>
       </div>
-      <div className="hoverr">
-        <div className="hair p-5 ">
-          <div className="row justify-content-end">
-            <div className="col-5 d-flex align-items-end justify-content-end">
-              <div className="col-6">
-                <h4>Hair Products</h4>
-                <ul className='ps-2'>
-                  <li><link rel="stylesheet" href="" />All Hair Products</li>
-                  <li><link rel="stylesheet" href="" />Shampoos</li>
-                  <li><link rel="stylesheet" href="" />Conditioners</li>
-                  <li><link rel="stylesheet" href="" />Dry Shampoos</li>
-                  <li><link rel="stylesheet" href="" />Treatment & Hai Ttreatment</li>
-                  <li><link rel="stylesheet" href="" />Styling & Finishing</li>
-                  <li><link rel="stylesheet" href="" />Color Care</li>
-                </ul>
-              </div>
-              <div className="line" style={{width:"1px",backgroundColor:"black",height:"80%"}}></div>
-              <div className="col-5">
-              <ul className='ps-4'>
-                  <li><link rel="stylesheet" href="" />Best Sellers</li>
-                  <li><link rel="stylesheet" href="" />Travel size</li>
-                  <li><link rel="stylesheet" href="" />Jumbo Size</li>
-                  <li><link rel="stylesheet" href="" />Limited editions</li>
-                  <li><link rel="stylesheet" href="" />Aqua Fresca Colloections</li>
-                  <li><link rel="stylesheet" href="" />Cure Liquer collections</li>
-                  <li><link rel="stylesheet" href="" />Liquid Glass Collection</li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-4">
-              <img src="https://www.drybar.com/media//wysiwyg/mega_menu/LGSerum_2024_MegaNav1_640x400.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </>
   )
 }

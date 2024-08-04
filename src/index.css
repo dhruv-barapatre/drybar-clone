@@ -2,6 +2,7 @@
 .row {
     width: 100%;
     color: black;
+    font-family: DIN;
 }
 
 .navbarr {
@@ -156,12 +157,175 @@ ul li {
     height: 200px;
 }
 
-.hoverr .hair{
-    /* display: none; */
-    background-color: red;
+/* //Home====>>>> */
+.first-line {
+    background-color: #F5F5F5;
+    width: 100%;
+    padding: 8px 20px;
+    font-size: 22px;
 }
 
-.hair-hover:hover + .hair {
-    /* display: visible; */
-    background-color: plum;
+.first-line span {
+    font-size: 14px;
+}
+
+.first-line div {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-item-custom {
+    height: 500px;
+    /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: red;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin: 10px 20px;
+    transition: 0.5s ease-in;
+}
+
+.carousel-indicators button:hover {
+    width: 30px;
+    border-radius: 10px;
+    /* height: 10px; */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.carousel-item-custom {
+    position: relative;
+}
+
+.slider .col-6 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    /* left: 60%; */
+    top: 50%;
+    overflow: auto;
+}
+
+.slider .col-6 h3 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.slider .col-6 p {
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.slider .col-6 button {
+    background-color: #42413D;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 60px;
+    font-size: 14px;
+}
+
+.no-cuts .col-3 img {
+    width: 100%;
+}
+
+.no-cuts {
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    padding: 50px;
+    margin: 0;
+    margin: 0px 30px;
+    font-weight: 700;
+    color: #42413D;
+    margin-top: 90px;
+    position: relative;
+}
+
+.no-cuts .art {
+    background-image: url('https://www.drybarshops.com/assets/images/heading_center_bg.png');
+    height: 35px;
+    width: 1161px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: -19px;
+}
+
+.no-cuts .art p {
+    text-align: center;
+    line-height: 35px;
+    font-size: 18.8px;
+    font-weight: 400;
+}
+
+.no-cuts .col-3 {
+    padding: 0;
+    width: 30%;
+
+    text-align: center;
+    height: fit-content;
+    transition: 0.5s ease;
+}
+
+.no-cuts .col-3:hover {
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.no-cuts .col-3 h3 {
+    font-size: 22px;
+    margin: 25px 0;
+}
+
+.no-cuts .col-3 p {
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.no-cuts button {
+    margin: 30px 0;
+    border: none;
+    background-color: #42413D;
+    color: white;
+    padding: 10px 50px;
+    border: 1px solid black;
+}
+
+.bordar {
+    border: 2px dotted #DBDBDB;
+    width: 100%;
+    position: relative;
+    margin:50px 0px;
+}
+
+.bordar img {
+    position: absolute;
+    top: -7px;
+    height: 18px;
+    left: 50%;
+
+}
+.slider-mix .row .col-4 h1{
+    font-size: 65px;
+    font-weight: 600;
+    text-decoration: bold;
+}
+.slider-mix .row .col-4 p{
+    font-size: 22px;
+}
+.slider-mix .row .col-4 button{
+    border: none;
+    background-color: #FFDD30;
+    padding: 7px 20px;
 }
