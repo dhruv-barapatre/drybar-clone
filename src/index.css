@@ -1,8 +1,9 @@
 /* navbar first part===>>> */
 .row {
     width: 100%;
-    color: black;
+    /* color: black; */
     font-family: DIN;
+    margin: 0;
 }
 
 .navbarr {
@@ -306,7 +307,7 @@ ul li {
     border: 2px dotted #DBDBDB;
     width: 100%;
     position: relative;
-    margin:50px 0px;
+    margin: 50px 0px;
 }
 
 .bordar img {
@@ -316,16 +317,137 @@ ul li {
     left: 50%;
 
 }
-.slider-mix .row .col-4 h1{
+
+.slider-mix .row .col-4 h1 {
     font-size: 65px;
     font-weight: 600;
     text-decoration: bold;
 }
-.slider-mix .row .col-4 p{
+
+.slider-mix .row .col-4 p {
     font-size: 22px;
+    font-weight: 300;
 }
-.slider-mix .row .col-4 button{
+
+.slider-mix button {
     border: none;
     background-color: #FFDD30;
-    padding: 7px 20px;
+    padding: 10px 40px;
+}
+
+.slider-mix .carousel-item div {
+    background-color: #F7F7F7;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.slider-mix .col-8 img {
+    width: calc(50% - 15px);
+    height: 50%;
+}
+
+/* template////======> */
+.pemplate {
+    /* height: 80vh; */
+    width: 100%;
+}
+
+.pemplate .row {
+    width: 100%;
+}
+
+.pemplate .col-4 {
+    padding: 0;
+}
+
+.pemplate .col-4 img {
+    width: 100%;
+}
+
+.icons {
+    width: 100%;
+    height: 100px;
+}
+
+.icons .line {
+    height: 100px;
+    width: 2px;
+    background-color: #A7A9AC;
+}
+
+.support .line {
+    height: 2px;
+    width: 80%;
+    background-color: #D1D1D1;
+}
+
+.support .col-2 .links {
+    display: flex;
+    flex-direction: column;
+}
+
+.support .col-2 .links a {
+    text-decoration: none;
+    color: #42413D;
+    padding: 10px 0px;
+}
+
+.support .col-3 h5 {
+    background-color: #ffdd30;
+    height: 16px;
+    width: 80%;
+}
+
+.support .col-3 input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px 10px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.support .col-3 button {
+    border: none;
+    background-color: #3A3C3E;
+    color: white;
+    padding: 7px 14px;
+}
+
+.footer {
+    background-color: #F9F9F9;
+    padding: 30px 10px;
+    margin: 40px 0;
+}
+
+.footer .col-4 img {
+    height: 50px;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer .col-4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.copyright {
+    display: flex;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright a {
+    text-decoration: none;
+}
+
+.copyright p {
+    font-size: 11px;
+    color: #42413D;
 }
