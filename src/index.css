@@ -567,3 +567,80 @@ ul li {
     text-decoration: none;
     color: black;
 }
+.navs ul .m-0{
+    font-weight:bold;
+    color: black;
+}
+.navs ul a{
+    text-decoration: none;
+    font-weight: lighter;
+    color: #42413D;
+}
+.navs ul {
+    display: flex;
+    flex-direction: column;
+}
+.navs .col-10 img{
+    width: 100%;
+}
+.navs .col-10 h2{
+    margin-top: 20px;
+}
+.navs .col-10 .row{
+    display: flex;
+    justify-content: space-between;
+}
+.navs .col-10 a{
+    text-decoration: none;
+    color: black;
+}
+.navs .col-10 .col-4 {
+    width: 32%;
+    padding: 0;
+}
+.navs .col-10 .col-4 p{
+    font-weight: 300;
+    text-align: center;
+}
+.navs .boximg .col-6 img{
+    width: 100%;
+}
+.navs .boximg .first{
+    width: 50%;
+    background-color: #D2E6FC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navs .boximg .col-6 h1{
+    font-weight: 600;
+    color:#6D8CC0;
+}
+.navs .boximg .col-6 p{
+    font-weight: 700;
+}
+.navs .boximg .row .first button{
+    background-color: #54575A;
+    border: none;
+    color: white;
+    padding: 5px 40px;
+    font-weight: 200;
+    width: max-content;
+}   
+.carousel .carousel-inner .d-flex .col-4{
+    width: 22%;
+}
+.carousel h2{
+    text-align:end
+}
+.carousel button span{
+    color: red;
+    position: absolute;
+    top: 0;
+    margin-top: -40px;
+}
+.carousel-control-prev {
+    left: 600px;
+}
+

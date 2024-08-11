@@ -38,7 +38,7 @@ const Navbar = () => {
       </div>
       <div className="nav-link2">
         <ul>
-          <li><Link className='black-link hair-hover'>Hair Products</Link></li>
+          <li><Link to={"/hair-products"} className='black-link hair-hover'>Hair Products</Link></li>
           <li><Link className='black-link'>Hair Tools</Link></li>
           <li><Link className='black-link'>Benefits</Link></li>
           <li><Link className='black-link'>Gifts & Sets</Link></li>
