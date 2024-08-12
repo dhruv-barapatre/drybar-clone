@@ -15,7 +15,9 @@ const Footer = () => {
     return (
         <>
             <div className="icons my-5 d-flex align-items-center d-flex justify-content-center">
+                <div className="col-5">
                 <img src="https://www.drybarshops.com/assets/images/footer/Keep_Glowing_Grey.png" alt="" />
+                </div>
                 <div className="line"></div>
                 <div className="icons-bar col-4 d-flex flex-wrap justify-content-center">
                     <img src="https://www.drybarshops.com/assets/images/footer/Drybar_Logo_Grey_138x66.png" alt="" />

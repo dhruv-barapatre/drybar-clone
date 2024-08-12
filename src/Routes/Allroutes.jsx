@@ -3,12 +3,14 @@ import { Route, Routes } from 'react-router-dom'
 import Home from '../Pages/Service'
 import Book from '../Pages/Book'
 import HairProducts from '../Components/HairProducts'
+import Hairtool from '../Components/Hairtool'
 
 const Allroutes = () => {
   return (
     <>
       <Routes>
-        <Route path='/hair-products' element={ <HairProducts />}></Route>
+        <Route path='/hair-products' element={ <HairProducts   />}></Route>
+        <Route path='/hair-tool' element={ <Hairtool   />}></Route>
       </Routes>
     </>
   )
