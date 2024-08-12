@@ -726,3 +726,6 @@ span{
     display: flex;
     row-gap: 20px;
 }
+select option{
+    font-weight: 700;
+}
