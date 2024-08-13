@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import "../App.css"
+
 
 const Gift = () => {
     const [data, setdata] = useState([])
@@ -8,7 +10,6 @@ const Gift = () => {
             .then(res => res.json())
             .then(data => {
                 setdata(data)
-
             })
             .catch(err => console.log(err))
         // console.log(data)
@@ -61,9 +62,21 @@ const Gift = () => {
                             </select>
                         </div>
                         <div className="fetchdata">
-                            {data.map((el) => {
+                            {/* {data.map((el) => {
                                return <h1> {el.id} </h1>
-                            })}
+                            })} */}
+                            <div className='col-4'>
+                                <div
+                                    className="img"
+                                    style={{width: "300px",height: "300px",backgroundImage: "url('https://www.drybar.com/media/catalog/product/cache/a66279ce311813e85621610526cb5d87/w/a/waves_for_days_svs_pdp_full_size_3600x3600_1_.jpg')",
+                                        backgroundSize: "cover",
+                                        backgroundPosition: "center",
+                                        backgroundRepeat:"no-repeat"
+                                    }}>
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
