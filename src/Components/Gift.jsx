@@ -1,7 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const Gift = () => {
+    const [data, setdata] = useState([])
+    const fetchdata = () => {
+        fetch('http://localhost:3000/gift')
+            .then(res => res.json())
+            .then(data => {
+                setdata(data)
+
+            })
+            .catch(err => console.log(err))
+        // console.log(data)
+    }
+    // fetchdata()
+    useEffect(() => {
+        fetchdata()
+
+    }, [])
     return (
         <>
             <div className="navs gift">
@@ -23,8 +39,8 @@ const Gift = () => {
                         <h4 className='text-center'>SHOP KITS AND SETS</h4>
                         <div className="d-flex justify-content-between">
                             <span>SHOP KITS AND SETS</span>
-                            <select style={{fontWeight:"700"}} id="sorter" data-role="sorter" class="sorter-options video-sorter-options" aria-label="Sort By">
-                                <option value="position" selected="selected">
+                            <select style={{ fontWeight: "700" }} id="sorter" data-role="sorter" className="sorter-options video-sorter-options" aria-label="Sort By">
+                                <option value="position">
                                     Sort:                                 Position            </option>
                                 <option value="bestsellers">
                                     Best Sellers            </option>
@@ -43,6 +59,11 @@ const Gift = () => {
                                 <option value="rating_summary">
                                     Top Rated            </option>
                             </select>
+                        </div>
+                        <div className="fetchdata">
+                            {data.map((el) => {
+                               return <h1> {el.id} </h1>
+                            })}
                         </div>
                     </div>
                 </div>
