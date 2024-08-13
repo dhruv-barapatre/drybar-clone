@@ -3,7 +3,6 @@ import Navbar from '../Components/Navbar'
 import { FaFacebookF, FaPinterestP, FaTruck, FaTwitter } from 'react-icons/fa'
 import { LuCoins } from 'react-icons/lu'
 import { IoMdPhonePortrait } from 'react-icons/io'
-import Carousel from 'react-bootstrap/Carousel';
 import img1 from '../images/img1.webp'
 import img2 from '../images/img2.webp'
 import img3 from '../images/img3.webp'
