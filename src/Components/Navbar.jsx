@@ -42,7 +42,7 @@ const Navbar = () => {
           <li><Link to={"/hair-tool"} className='black-link'>Hair Tools</Link></li>
           <li><Link to={"gift-sets"} className='black-link'>Gifts & Sets</Link></li>
           <li><Link to={"/new"} className='black-link' style={{ color: 'black' }}>New</Link></li>
-          <li><Link className='black-link'>How To & Inspo</Link></li>
+          <li><Link to={"/how-to"} className='black-link'>How To & Inspo</Link></li>
         </ul>
       </div>
       

@@ -1,6 +1,7 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 /* navbar first part===>>> */
 
 .row {
@@ -884,12 +885,15 @@ select option {
     font-size: 53px;
     color: #6D8CC0;
 }
-.new-twist .col-6 p{
+
+.new-twist .col-6 p {
     font-weight: 300;
 }
-.new-twist .col-6 p span{
+
+.new-twist .col-6 p span {
     font-weight: 700;
 }
+
 .new-twist .col-6 button {
     border: none;
     color: white;
@@ -900,24 +904,86 @@ select option {
     border: 1px solid transparent;
     transition: 0.5s ease-in-out;
 }
-.new-twist .col-6 button:hover{
+
+.new-twist .col-6 button:hover {
     border: 1px solid #54575A;
     background-color: white;
     color: #54575A;
 }
-.new-drybar-products div{
+
+.new-drybar-products div {
     font-weight: 700;
 }
-.new-drybar-products a{
+
+.new-drybar-products a {
     text-decoration: none;
 }
-.new-drybar-products .col-4 h2,.new-drybar-products .col-4 span{
+
+.new-drybar-products .col-4 h2,
+.new-drybar-products .col-4 span {
     color: #42413D;
 }
-.new-drybar-products .row .col-4{
+
+.new-drybar-products .row .col-4 {
     width: 31%;
 }
-.new-video .row .col-4{
+
+.new-video .row .col-4 .img {
     height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 430px;
+}
+.new-video .icon{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 12px 10px 12px 15px;
+    background-color: rgba(100, 100, 111, 0.7);
+}
+.traingle {
+    border-top: 10px solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid white;
+}
+.dry-bigger .row .col-6 img{
+    width: 100%;
+}
+.dry-bigger p{
+    font-weight: 100;
+}
+.dry-bigger .col-6{
+    width: 49.5%;
+    padding: 0;
+}
+.how-to .col-6 img{
+    width: 100%;
+}
+.how-to .btns button{
+    border: none;
+    padding: 7px 40px;
+    margin: 5px;
+    font-weight: 700;
+    border: 1px solid transparent;
+}
+.how-to .btns .btn1{
+    color: white;
+    background-color: #54575A;
+    transition: 0.5s ease-in-out;
+}
+.how-to .btns .btn1:hover{
+    color: #54575A;
+    background-color: white;
+    border: 1px solid #54575A;
+}
+.how-to .btns .btn2{
+    color: #54575A;
+    border: 1px solid #54575A;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+.how-to .btns .btn2:hover{
+    color: white;
+    background-color: #54575A;
+    border-color: transparent;
 }
