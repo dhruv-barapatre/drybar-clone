@@ -61,19 +61,36 @@ const Gift = () => {
                                     Top Rated            </option>
                             </select>
                         </div>
-                        <div className="fetchdata">
+                        <div className="fetchdata my-5">
                             {/* {data.map((el) => {
                                return <h1> {el.id} </h1>
                             })} */}
-                            <div className='col-4'>
-                                <div
-                                    className="img"
-                                    style={{width: "300px",height: "300px",backgroundImage: "url('https://www.drybar.com/media/catalog/product/cache/a66279ce311813e85621610526cb5d87/w/a/waves_for_days_svs_pdp_full_size_3600x3600_1_.jpg')",
-                                        backgroundSize: "cover",
-                                        backgroundPosition: "center",
-                                        backgroundRepeat:"no-repeat"
-                                    }}>
-                                </div>
+                            <div className="row">
+                                {data.map((el) => {
+                                    const discountPercentage = Math.round(((el.sprice - el.price) / el.sprice) * 100);
+
+                                    console.log(discountPercentage)
+                                    return (
+                                        <div key={el.id} className='col-4 '>
+                                            <div className="d-flex justify-content-center">
+                                                <div className="img" style={{ width: "300px", height: "300px", backgroundImage: `url(${el.img})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+                                                    {discountPercentage > 0 && discountPercentage < 100 ? <span className=''>{discountPercentage}% OFF</span> : ""}
+                                                </div>
+                                                <div className="img2">
+                                                    <img src={el.himg} alt="" />
+                                                </div>
+                                            </div>
+                                            <Link>
+                                                <h2>{el.name}</h2>
+                                                <span>
+                                                    <span className='text-danger mx-2'>${el.price}</span>
+                                                    {el.sprice ? <s>${el.sprice}</s> : ""}
+                                                </span>
+                                            </Link>
+                                            <button className='mt-1'>Add To Cart</button>
+                                        </div>
+                                    )
+                                })}
                             </div>
 
 

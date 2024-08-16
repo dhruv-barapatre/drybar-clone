@@ -1,4 +1,8 @@
+*{
+    box-sizing: border-box;
+}
 /* navbar first part===>>> */
+
 .row {
     width: 100%;
     /* color: black; */
@@ -793,3 +797,127 @@ select option {
     font-weight: 700;
 }
 
+.fetchdata .col-4 .img span {
+    font-weight: 100;
+    font-size: 14px;
+    padding: 05px 10px;
+    margin: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #e8e8e8;
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+}
+
+.fetchdata .col-4:hover .img span {
+    opacity: 0;
+}
+
+.fetchdata .col-4 button {
+    display: block;
+    width: 100%;
+    border: 1px solid #54575A;
+    outline: none;
+    background-color: #54575A;
+    color: white;
+    padding: 7px 20px;
+    font-weight: 700;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+
+}
+
+.fetchdata .col-4:hover button {
+    opacity: 1;
+}
+
+.fetchdata .col-4 button:hover {
+    background-color: white;
+    color: #54575A;
+}
+
+.fetchdata .row .col-4 {
+    position: relative;
+    width: 350px;
+}
+
+.fetchdata .row .col-4 .img {
+    position: absolute;
+    transition: 0.2s ease-in-out;
+
+}
+
+.fetchdata .row .col-4:hover .img {
+    opacity: 0;
+}
+
+.fetchdata .col-4 .img2 {
+    width: 300px;
+    height: 300px;
+}
+
+.fetchdata .col-4 .img2 img {
+    width: 100%;
+}
+
+.fetchdata .col-4 h2 {
+    font-size: 16px;
+}
+
+.new-twist .col-6 {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-twist .col-6 img {
+    width: 100%;
+}
+
+.new-twist .text {
+    background-color: #D4E8FF;
+}
+
+.new-twist .col-6 h1 {
+    font-size: 53px;
+    color: #6D8CC0;
+}
+.new-twist .col-6 p{
+    font-weight: 300;
+}
+.new-twist .col-6 p span{
+    font-weight: 700;
+}
+.new-twist .col-6 button {
+    border: none;
+    color: white;
+    background-color: #54575A;
+    padding: 7px 80px;
+    font-weight: 700;
+    width: fit-content;
+    border: 1px solid transparent;
+    transition: 0.5s ease-in-out;
+}
+.new-twist .col-6 button:hover{
+    border: 1px solid #54575A;
+    background-color: white;
+    color: #54575A;
+}
+.new-drybar-products div{
+    font-weight: 700;
+}
+.new-drybar-products a{
+    text-decoration: none;
+}
+.new-drybar-products .col-4 h2,.new-drybar-products .col-4 span{
+    color: #42413D;
+}
+.new-drybar-products .row .col-4{
+    width: 31%;
+}
+.new-video .row .col-4{
+    height: 240px;
+    width: 430px;
+}
