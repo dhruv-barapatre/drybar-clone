@@ -934,7 +934,7 @@ select option {
     background-size: cover;
     width: 430px;
 }
-.new-video .icon{
+ .icon{
     border: 1px solid transparent;
     border-radius: 50%;
     padding: 12px 10px 12px 15px;
@@ -986,4 +986,24 @@ select option {
     color: white;
     background-color: #54575A;
     border-color: transparent;
+}
+.learn-now .img{
+    height:200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+}
+.flat-iron .col-7 img{
+    width: 100%;
+}
+.flat-iron .col-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FAF19B;
+}
+.check-us .col-4 img{
+    width: 100%;
 }
