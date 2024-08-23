@@ -15,16 +15,6 @@ p {
     font-weight: 700;
 }
 
-.navbarr {
-    background-color: #F9F9F9;
-}
-
-.navbarr .line {
-    width: 3px;
-    /* height: ; */
-    background-color: white;
-}
-
 .nav-link {
     color: black;
     margin-top: 2px;
@@ -33,10 +23,6 @@ p {
     /* transition: 0.5s; */
 }
 
-.navbarr .nav-item button {
-    padding: 0px;
-    transition: 0.5s;
-}
 
 .nav-link .nav-item {
     background-color: transparent;
@@ -61,22 +47,6 @@ p {
     height: 2px;
     background-color: #FFDD30;
     margin-top: 0px;
-}
-
-.navbarr .nav-item button {
-    padding: 10px 20px;
-}
-
-.navbarr .col-6 svg {
-    font-size: 25px;
-    color: #313131;
-}
-
-.navbarr .line2 {
-    width: 0.1%;
-    height: 46px;
-    padding: 0;
-    background-color: #FFDD30;
 }
 
 .d-b .img-2 {

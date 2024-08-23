@@ -10,26 +10,7 @@ const Navbar = () => {
     <>
       <div className="navbarr">
         <div className="row d-flex align-items-center">
-          <div className="col-6">
-            <ul className="nav nav-pills " id="pills-tab" role="tablist">
-              <li className="nav-item" role="presentation">
-                <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Services</button>
-              </li><div className="line"></div>
-              <li className="nav-item" role="presentation">
-                <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Book</button>
-              </li><div className="line"></div>
-              <li className="nav-item" role="presentation">
-                <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Shop</button>
-              </li>
-            </ul>
 
-          </div>
-          <div className="col-6 d-flex gap-2 justify-content-end">
-            <CiSearch />
-            <CiUser />
-            <IoLocation />
-            {/* <FiShoppingBag /> */}
-          </div>
         </div>
       </div>
       <div className="d-flex pt-2 pb-2 d-b justify-content-center img position-relative">
@@ -45,7 +26,12 @@ const Navbar = () => {
           <li><Link to={"/how-to"} className='black-link'>How To & Inspo</Link></li>
         </ul>
       </div>
-      
+      <div className="col-6 d-flex gap-2 justify-content-end">
+        <CiSearch />
+        <CiUser />
+        <IoLocation />
+        {/* <FiShoppingBag /> */}
+      </div>
     </>
   )
 }
