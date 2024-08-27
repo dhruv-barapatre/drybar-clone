@@ -17,6 +17,7 @@ const Hairtool = () => {
         <>
             <div className="navs tool row mt-5">
                 <div className="col-2">
+                <span className='px-3 '>Hair  / Hair Tool</span>
                     <h4>Hair Products</h4>
                     <ul>
                         <li className='m-0 p-0'>Categories</li>

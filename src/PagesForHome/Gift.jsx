@@ -24,6 +24,7 @@ const Gift = () => {
             <div className="navs gift">
                 <div className="row">
                     <div className="col-2">
+                    <span className='px-3'>Hair  / Gift & Sets</span>
                         <h4>Hair Products</h4>
                         <ul>
                             <li className='m-0 p-0'>Categories</li>
