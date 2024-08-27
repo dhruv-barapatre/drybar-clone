@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useReducer, useState } from 'react'
 import { FaTruck } from 'react-icons/fa'
 import { IoMdPhonePortrait } from 'react-icons/io'
 import { LuCoins } from 'react-icons/lu'
@@ -7,6 +7,20 @@ import Carousel from 'react-bootstrap/Carousel';
 import Footer from "../Components/Footer"
 
 const HairProducts = () => {
+    const [server, setserver] = useState([])
+    // let server={}
+    const fetchData = () => {
+        fetch("http://localhost:3000/hair-products")
+            .then(res => res.json())
+            .then(data => setserver(data))
+            .catch(err => console.log(err))
+    };
+
+    useEffect(() => {
+        fetchData();
+        console.log(server)
+    }, []);
+
     return (
         <div>
             <div className="first-line d-flex justify-content-center gap-3 align-items-center">
@@ -40,237 +54,34 @@ const HairProducts = () => {
                 </div>
                 <div className="col-10">
                     <img src="https://www.drybar.com/media/wysiwyg/header_banner/LGSerum_2024_SlimHeaderBanner1_D1300x200_1.jpg" alt="" />
-                    <h2 className='text-center' data-element="title">Learn Something New</h2>
-                    <div className="row">
-                        <div className="col-4">
-                            <Link>
-                                <img src="https://www.drybar.com/media/video/thumbnails/cache/c556c89eeec08fe4a77bcae83aecb356/SmoothShot_Thumbnails_1850x1041.jpg" alt="" />
-                                <h4 className='text-center'>The Smooth Shot Paddle Brush Blow-Dryer</h4>
-                                <p>Paddle Your Way to Smooth. Combines the hot air of a blow-dryer with the structure of a paddle brush to create a smooth blowout with added body in one simple step. Great for detangling, taming frizz, and creating a shiny blowout.</p>
-                            </Link>
-                        </div>
-                        <div className="col-4">
-                            <Link>
-                                <img src="https://www.drybar.com/media/video/thumbnails/cache/c556c89eeec08fe4a77bcae83aecb356/DetoxCollection_1850x1041.jpg" alt="" />
-                                <h4 className='text-center'>Which Detox Dry Shampoo is Right For You?</h4>
-                                <p>Drybar founder Alli Webb helps determine which of the three Detox Dry Shampoos is right for you.</p>
-                            </Link>
-                        </div>
-                        <div className="col-4">
-                            <Link>
-                                <img src="https://www.drybar.com/media/video/thumbnails/cache/c556c89eeec08fe4a77bcae83aecb356/BigBrew_Thumbnails_1850x1041.jpg" alt="" />
-                                <h4 className='text-center'>Big Brew Instant Thickening Styling Treatment</h4>
-                                <p>Instant thickening treatment provides fuller, denser-looking hair while locking in style. Helps rejuvenate follicles to visibly improve thickness and reduce signs of thinning hair over time.</p>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="boximg my-3">
+                    <h2 className='text-center' data-element="title">Our Hair Products</h2>
+                    <div className="fetchdata">
                         <div className="row">
-                            <div className="col-6 p-0 first">
-                                <h1>SURE TO SHINE</h1>
-                                <p>Shop the new additions to our Liquid Glass Collection!</p>
-                                <button className='mt-5'>Shop Now</button>
-                            </div>
-                            <div className="col-6 p-0 second">
-                                <img src="https://www.drybar.com/media//wysiwyg/definition_widget/LGCream_2024_DefinitionWidget3_D900x540.jpg" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                    <div className="slider">
-                        <h2>Frizz-Fighting Sheen Team</h2>
-                        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-                            <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                    <div className="d-flex">
-                                        <div className="row">
-                                            <div className="col-4">
-                                                <img src="https://www.drybar.com/media/catalog/product/cache/a66279ce311813e85621610526cb5d87/l/i/liquidglass_flatlay-1.jpg" alt="" />
-                                                <Link>
-                                                    <h3 className="text-center">Liquid Glass Miracle Smoothing Sealant</h3>
-                                                    <p>$16.00 - $34.00</p>
-                                                    <button>Add To Bag</button>
-                                                </Link>
+                            {server.map((el) => {
+                                return (
+                                    <div key={el.id} className='col-4 '>
+                                        <div className="d-flex justify-content-center">
+                                            <div className="img" style={{ width: "300px", height: "300px", backgroundImage: `url(${el.img})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
                                             </div>
-                                            <div className="col-4">
-                                                <img src="https://www.drybar.com/media/catalog/product/cache/a66279ce311813e85621610526cb5d87/l/i/liquidglasssmoothingshampoo_1_1.jpg" alt="" />
-                                                <Link>
-                                                    <h3 className="text-center">Liquid Glass Miracle Smoothing Sealant</h3>
-                                                    <p>$16.00 - $34.00</p>
-                                                    <button>Add To Bag</button>
-                                                </Link>
-                                            </div>
-                                            <div className="col-4">
-                                                <img src="https://www.drybar.com/media/catalog/product/cache/a66279ce311813e85621610526cb5d87/l/i/liquidglasssmoothingconditioner_1_1.jpg" alt="" />
-                                                <Link>
-                                                    <h3 className="text-center">Liquid Glass Miracle Smoothing Sealant</h3>
-                                                    <p>$16.00 - $34.00</p>
-                                                    <button>Add To Bag</button>
-                                                </Link>
-                                            </div>
-                                            <div className="col-4">
-                                                <img src="https://www.drybar.com/media/catalog/product/cache/a66279ce311813e85621610526cb5d87/l/i/liquidglassinstantglossingrinse.jpg" alt="" />
-                                                <Link>
-                                                    <h3 className="text-center">Liquid Glass Miracle Smoothing Sealant</h3>
-                                                    <p>$16.00 - $34.00</p>
-                                                    <button>Add To Bag</button>
-                                                </Link>
+                                            <div className="img2">
+                                                <img src={el.himg} alt="" />
                                             </div>
                                         </div>
+                                        <Link>
+                                            <h2>{el.name}</h2>
+                                            <span>
+                                                <span className='text-danger mx-2'>${el.price}</span>
+                                                {el.sprice ? <s>${el.sprice}</s> : ""}
+                                            </span>
+                                        </Link>
+                                        <button className='mt-1'>Add To Cart</button>
                                     </div>
-                                </div>
-                                <div className="carousel-item">
-                                    <div className="d-flex">
-                                        <div className="row">
-                                            <div className="col-4">
-                                                <img src="https://www.drybar.com/media/catalog/product/cache/a66279ce311813e85621610526cb5d87/l/g/lg_blowoutcream.jpg" alt="" />
-                                                <Link>
-                                                    <h3 className="text-center">Liquid Glass Miracle Smoothing Sealant</h3>
-                                                    <p>$16.00 - $34.00</p>
-                                                    <button>Add To Bag</button>
-                                                </Link>
-                                            </div>
-                                            <div className="col-4">
-                                                <img src="https://www.drybar.com/media/catalog/product/cache/a66279ce311813e85621610526cb5d87/l/g/lg_finishingserum.jpg" alt="" />
-                                                <Link>
-                                                    <h3 className="text-center">Liquid Glass Miracle Smoothing Sealant</h3>
-                                                    <p>$16.00 - $34.00</p>
-                                                    <button>Add To Bag</button>
-                                                </Link>
-                                            </div>
-                                            <div className="col-4">
-                                                <img src="https://www.drybar.com/media/catalog/product/cache/a66279ce311813e85621610526cb5d87/l/g/lg_finishingserum.jpg" alt="" />
-                                                <Link>
-                                                    <h3 className="text-center">Liquid Glass Miracle Smoothing Sealant</h3>
-                                                    <p>$16.00 - $34.00</p>
-                                                    <button>Add To Bag</button>
-                                                </Link>
-                                            </div>
-                                            <div className="col-4">
-                                                <img src="https://www.drybar.com/media/catalog/product/cache/a66279ce311813e85621610526cb5d87/l/i/liquidglass_flatlay-1.jpg" alt="" />
-                                                <Link>
-                                                    <h3 className="text-center">Liquid Glass Miracle Smoothing Sealant</h3>
-                                                    <p>$16.00 - $34.00</p>
-                                                    <button>Add To Bag</button>
-                                                </Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span className="visually-hidden">Previous</span>
-                            </button>
-                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span className="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                    </div>
-                    <div className="cheers">
-                        <div className="row d-flex align-items-center">
-                            <div className="col-6">
-                                <h2 className="text-center" style={{ fontSize: "45px" }}>
-                                    <img src="https://www.drybar.com/media//wysiwyg/widget_icons/DefinitionWidget_GinTwistDefinitionWidget_Icon.png" alt="" />
-                                    <span>Cheers to Curls!</span>
-                                    <img src="https://www.drybar.com/media//wysiwyg/widget_icons/DefinitionWidget_GinTwistDefinitionWidget_Icon.png" alt="" />
-                                </h2>
-                                <p style={{ fontSize: "25px", textAlign: "center" }}>Moisturize, strengthen, and define curls and coils with our Gin Twist Collection.  Crafted to leave hair soft and manageable without weighing it down!</p>
-                                <button>Shop Now</button>
-                            </div>
-                            <div className="col-6">
-                                <img src="https://www.drybar.com/media//wysiwyg/definition_widget/DefinitionWidget_GinTwistGT_DefinitionWidget_Desktop.jpg" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                    <img className="w-100 py-5" src="https://www.drybar.com/media/wysiwyg/header_banner/EvergreenTravel_2022_HeaderBanner_D1300x700.jpg" alt="" />
-                    <div className="fav py-5">
-                        <h1 className="text-center">Favorites</h1>
-                        <div className="row">
-                            <div className="col-4 text-center">
-                                <img src="https://www.drybar.com/media//wysiwyg/social_gallery/product_1080_1080/Drybar_liquid_glass_1.jpg" alt="" />
-                                <Link>
-                                    <h3>Ultimate Frizz Fighter! </h3>
-                                    <p>Heat-activated technology wraps an invisible shield around each hair strand to provide frizz resistance. Leaves a super-glossy, silky finish without weighing hair down.</p>
-                                    <span>Liquid Glass Miracle Smoothing Sealant</span>
-                                </Link>
-                            </div>
-                            <div className="col-4 text-center">
-                                <img src="https://www.drybar.com/media//wysiwyg/social_gallery/product_1080_1080/Drybar_liquid_glass_1.jpg" alt="" />
-                                <Link>
-                                    <h3>Ultimate Frizz Fighter! </h3>
-                                    <p>Heat-activated technology wraps an invisible shield around each hair strand to provide frizz resistance. Leaves a super-glossy, silky finish without weighing hair down.</p>
-                                    <span>Liquid Glass Miracle Smoothing Sealant</span>
-                                </Link>
-                            </div>
-                            <div className="col-4 text-center">
-                                <img src="https://www.drybar.com/media//wysiwyg/social_gallery/product_1080_1080/Drybar_liquid_glass_1.jpg" alt="" />
-                                <Link>
-                                    <h3>Ultimate Frizz Fighter! </h3>
-                                    <p>Heat-activated technology wraps an invisible shield around each hair strand to provide frizz resistance. Leaves a super-glossy, silky finish without weighing hair down.</p>
-                                    <span>Liquid Glass Miracle Smoothing Sealant</span>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="cheers copy">
-                        <div className="row d-flex align-items-center" style={{ backgroundColor: "#FFF3BE" }}>
-                            <div className="col-6">
-                                <img src="https://www.drybar.com/media//wysiwyg/definition_widget/DefinitionWidget1_BigSwig_Desktop.jpg" alt="" />
-                            </div>
-                            <div className="col-6 p-3" style={{ backgroundColor: "#FFF3BE" }}>
-                                <h2 className="text-center" style={{ fontSize: "45px" }}>
-                                    ″Adds fullness to fine hair!″
-                                </h2>
-                                <h4 className='text-center'>- Lauren B.</h4>
-                                <p style={{ fontSize: "25px", textAlign: "center" }}>Plump it up with Big Swig Thickening Spray - your way to get thicker, fuller-looking and soft, touchable hair!</p>
-                                <button>Shop Now</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="explore">
-                        <h1>Explore Drybar Hair Products</h1>
-                        <div className="row">
-                            <div className="col-4">
-                                <img src="https://www.drybar.com/media//wysiwyg/promo_grid/Shampoo_Products_2B_430x430.jpg" alt="" />
-                                <Link>
-                                    <h4 className='pb-2'>Shampoo</h4>
-                                </Link>
-                            </div>
-                            <div className="col-4">
-                                <img src="https://www.drybar.com/media//wysiwyg/promo_grid/Conditioner_Products_2B_430x430.jpg" alt="" />
-                                <Link>
-                                    <h4 className='pb-2'>Conditioners</h4>
-                                </Link>
-                            </div>
-                            <div className="col-4">
-                                <img src="https://www.drybar.com/media//wysiwyg/promo_grid/ExtendYourBlowout_430x430.jpg" alt="" />
-                                <Link>
-                                    <h4 className='pb-2'> Dry Shampoo</h4>
-                                </Link>
-                            </div>
-                            <div className="col-4">
-                                <img src="https://www.drybar.com/media/wysiwyg/HeatTreatment_430x430_1.jpg" alt="" />
-                                <Link>
-                                    <h4 className='pb-2'>Treatments & Heat Protection</h4>
-                                </Link>
-                            </div>
-                            <div className="col-4">
-                                <img src="https://www.drybar.com/media//wysiwyg/promo_grid/Styling_Finishing_Products_1B_430x430.jpg" alt="" />
-                                <Link>
-                                    <h4 className='pb-2'>Styling & Finishing</h4>
-                                </Link>
-                            </div>
-                            <div className="col-4">
-                                <img src="https://www.drybar.com/media/wysiwyg/ColorCare_430x430_1.jpg" alt="" />
-                                <Link>
-                                    <h4 className='pb-2'>Color Care</h4>
-                                </Link>
-                            </div>
+                                )
+                            })}
                         </div>
                     </div>
                 </div>
-                    <Footer />
+                <Footer />
             </div>
         </div>
     )

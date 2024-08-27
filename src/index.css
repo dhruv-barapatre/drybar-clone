@@ -946,3 +946,10 @@ select option {
 .check-us .col-4 img{
     width: 100%;
 }
+.navs .fetchdata{
+    position: 0;
+}
+.navs .fetchdata .img2 img {
+    width: 300px;
+    height: 300px;
+}

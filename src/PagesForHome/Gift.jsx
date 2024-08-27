@@ -62,9 +62,6 @@ const Gift = () => {
                             </select>
                         </div>
                         <div className="fetchdata my-5">
-                            {/* {data.map((el) => {
-                               return <h1> {el.id} </h1>
-                            })} */}
                             <div className="row">
                                 {data.map((el) => {
                                     const discountPercentage = Math.round(((el.sprice - el.price) / el.sprice) * 100);
