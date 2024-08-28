@@ -5,11 +5,13 @@ import "../App.css"
 
 const Gift = () => {
     const [data, setdata] = useState([])
+    const [server,setserver]=useState([])
     const fetchdata = () => {
         fetch('http://localhost:3000/gift')
             .then(res => res.json())
             .then(data => {
                 setdata(data)
+                setserver(data)
             })
             .catch(err => console.log(err))
         // console.log(data)
@@ -19,12 +21,39 @@ const Gift = () => {
         fetchdata()
 
     }, [])
+    const handlefilter = (e) => {
+        const value = e.target.value;
+        let filterdata;
+        value === "" ? filterdata = [...data]
+            : filterdata = [...server].sort((a, b) => {
+                if (value === 'priceAsc') {
+                    return a.price - b.price;
+                } else if (value === 'priceDesc') {
+                    return b.price - a.price;
+                } else if (value === 'nameAsc') {
+                    return a.heading.localeCompare(b.heading);
+                } else if (value === 'nameDesc') {
+                    return b.heading.localeCompare(a.heading);
+                } else if (value === 'discountAsc') {
+                    a = Math.round(((a.sprice - a.price) / a.sprice) * 100);
+                    b = Math.round(((b.sprice - b.price) / b.sprice) * 100);
+                    return a - b;
+                } else if (value === 'discountDesc') {
+                    a = Math.round(((a.sprice - a.price) / a.sprice) * 100);
+                    b = Math.round(((b.sprice - b.price) / b.sprice) * 100);
+                    return b - a;
+                } else if (value === '') {
+                    return [...data];
+                }
+            });
+        setserver(filterdata);
+    };
     return (
         <>
             <div className="navs gift">
                 <div className="row">
                     <div className="col-2">
-                    <span className='px-3'>Hair  / Gift & Sets</span>
+                        <span className='px-3'>Hair  / Gift & Sets</span>
                         <h4>Hair Products</h4>
                         <ul>
                             <li className='m-0 p-0'>Categories</li>
@@ -39,32 +68,21 @@ const Gift = () => {
                     </div>
                     <div className="col-10">
                         <h4 className='text-center'>SHOP KITS AND SETS</h4>
-                        <div className="d-flex justify-content-between">
-                            <span>SHOP KITS AND SETS</span>
-                            <select style={{ fontWeight: "700" }} id="sorter" data-role="sorter" className="sorter-options video-sorter-options" aria-label="Sort By">
-                                <option value="position">
-                                    Sort:                                 Position            </option>
-                                <option value="bestsellers">
-                                    Best Sellers            </option>
-                                <option value="revenue">
-                                    Revenue            </option>
-                                <option value="most_viewed">
-                                    Most Viewed            </option>
-                                <option value="new">
-                                    New            </option>
-                                <option value="price_asc">
-                                    Price: low to high            </option>
-                                <option value="price_desc">
-                                    Price: high to low            </option>
-                                <option value="name">
-                                    Product Name            </option>
-                                <option value="rating_summary">
-                                    Top Rated            </option>
+                        <div className="d-flex align-items-center justify-content-between">
+                            <h2 className='d-inline' data-element="title">Our Hair Products</h2>
+                            <select onChange={(e) => handlefilter(e)} style={{ fontWeight: "700" }} id="sorter" data-role="sorter" className="sorter-options video-sorter-options" aria-label="Sort By">
+                                <option value="">----</option>
+                                <option value="priceAsc">Price: low to high</option>
+                                <option value="priceDesc">Price: high to low</option>
+                                <option value="nameAsc">Product Name(A To Z)</option>
+                                <option value="nameDesc">Product Name(Z To A)</option>
+                                <option value="discountAsc">Discount(Low To high)</option>
+                                <option value="discountDesc">Discount(High To Low)</option>
                             </select>
                         </div>
                         <div className="fetchdata my-5">
                             <div className="row">
-                                {data.map((el) => {
+                                {server.map((el) => {
                                     const discountPercentage = Math.round(((el.sprice - el.price) / el.sprice) * 100);
 
                                     console.log(discountPercentage)
@@ -79,10 +97,10 @@ const Gift = () => {
                                                 </div>
                                             </div>
                                             <Link>
-                                                <h2>{el.name}</h2>
+                                                <h2>{el.heading}</h2>
                                                 <span>
                                                     <span className='text-danger mx-2'>${el.price}</span>
-                                                    {el.sprice ? <s>${el.sprice}</s> : ""}
+                                                    {el.sprice ? el.sprice != el.price ? <s>${el.sprice}</s> : "" : ""}
                                                 </span>
                                             </Link>
                                             <button className='mt-1'>Add To Cart</button>
