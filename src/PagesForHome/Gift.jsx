@@ -5,7 +5,7 @@ import "../App.css"
 
 const Gift = () => {
     const [data, setdata] = useState([])
-    const [server,setserver]=useState([])
+    const [server, setserver] = useState([])
     const fetchdata = () => {
         fetch('http://localhost:3000/gift')
             .then(res => res.json())
@@ -48,6 +48,21 @@ const Gift = () => {
             });
         setserver(filterdata);
     };
+
+    const handleCart = (el) => {
+        fetch("http://localhost:3000/cart", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(el)
+        })
+            .then(res => res.json())
+            .then(data => {
+                alert("Item Added To Cart")
+            })
+            .catch(err => { console.log(err) })
+    }
     return (
         <>
             <div className="navs gift">
@@ -84,8 +99,6 @@ const Gift = () => {
                             <div className="row">
                                 {server.map((el) => {
                                     const discountPercentage = Math.round(((el.sprice - el.price) / el.sprice) * 100);
-
-                                    console.log(discountPercentage)
                                     return (
                                         <div key={el.id} className='col-4 '>
                                             <div className="d-flex justify-content-center">
@@ -103,7 +116,7 @@ const Gift = () => {
                                                     {el.sprice ? el.sprice != el.price ? <s>${el.sprice}</s> : "" : ""}
                                                 </span>
                                             </Link>
-                                            <button className='mt-1'>Add To Cart</button>
+                                            <button className='mt-1' onClick={() => handleCart(el)}>Add To Cart</button>
                                         </div>
                                     )
                                 })}

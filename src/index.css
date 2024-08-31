@@ -953,3 +953,6 @@ select option {
     width: 300px;
     height: 300px;
 }
+svg{
+    font-size: 20px;
+}

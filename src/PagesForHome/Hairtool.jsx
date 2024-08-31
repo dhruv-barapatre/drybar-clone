@@ -44,6 +44,20 @@ const Hairtool = () => {
             });
         setserver(filterdata);
     };
+    const handleCart = (el) => {
+        fetch("http://localhost:3000/cart", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(el)
+        })
+            .then(res => res.json())
+            .then(data => {
+                alert("Item Added To Cart")
+            })
+            .catch(err => { console.log(err) })
+    }
     return (
         <>
             <div className="navs tool row mt-5">
@@ -95,7 +109,7 @@ const Hairtool = () => {
                                                 {el.sprice ? el.sprice != el.price ? <s>${el.sprice}</s>:"" : ""}
                                             </span>
                                         </Link>
-                                        <button className='mt-1'>Add To Cart</button>
+                                        <button className='mt-1' onClick={()=>handleCart(el)}>Add To Cart</button>
                                     </div>
                                 )
                             })}
