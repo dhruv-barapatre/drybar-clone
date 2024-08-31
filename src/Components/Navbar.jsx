@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <>
-      <div className="navber d-b d-flex justify-content-between align-items-center px-3">
+      <div className="navber d-b d-flex justify-content-between align-items-center">
         <div className="logo">
           <Link to={"/"}>
             <img className='img-1' src="https://www.drybar.com/media/logo/websites/73/drybar_logo_1.svg" alt="" />
