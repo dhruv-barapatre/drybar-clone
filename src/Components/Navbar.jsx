@@ -5,17 +5,19 @@ import { CiSearch } from "react-icons/ci";
 import { FiShoppingBag } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import { MdDelete } from 'react-icons/md';
+import { MdDelete, MdRemoveShoppingCart } from 'react-icons/md';
+import img from '../images/empty-cart.png'
 
 const Navbar = () => {
   const [data, Setdata] = useState([])
-  const [total, settotal] = useState([])
+  const [cart, setcart] = useState(0)
   const [sum, setsum] = useState(0)
   const GetData = () => {
     axios.get("http://localhost:3000/cart")
       .then(res => {
         Setdata(res.data)
         TotalCost(res.data)
+        Checkcart(res.data)
       })
       .catch(err => {
         console.log(err)
@@ -42,6 +44,10 @@ const Navbar = () => {
   useEffect(() => {
     GetData()
   }, [])
+
+  const Checkcart = (data) => {
+    data.length > 0 ? setcart(true) : setcart(false);
+  }
   return (
     <>
       <div className="navber d-b d-flex justify-content-between align-items-center px-3">
@@ -72,14 +78,21 @@ const Navbar = () => {
               <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div className="offcanvas-body ">
-              {data.map((el) => (
-                <div className='pros' key={el.id}>
-                  <img src={el.img} alt="" />
-                  <h5>{el.heading}</h5>
-                  <p>${el.price}</p>
-                  <button onClick={() => delData(el.id)} className='del-btn'><MdDelete />Delete</button>
-                </div>
-              ))}
+              {cart ?
+                data.map((el) => (
+                  <div className='pros' key={el.id}>
+                    <img src={el.img} alt="" />
+                    <h5>{el.heading}</h5>
+                    <p>${el.price}</p>
+                    <button onClick={() => delData(el.id)} className='del-btn'><MdDelete />Delete</button>
+                  </div>
+                ))
+                : (
+                  <div className='d-flex align-items-center justify-content-center'>
+                    <img src={img} alt="" />
+                    Cart Is Empty
+                  </div>
+                )}
               <div className="lane mt-3 d-flex justify-content-center gap-3">
                 <h4>Total:</h4>
                 <h4>${sum}</h4>
