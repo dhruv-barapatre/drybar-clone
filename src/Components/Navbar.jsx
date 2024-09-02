@@ -67,7 +67,7 @@ const Navbar = () => {
         </ul>
 
         <div className="d-flex gap-2 justify-content-end nav-btns">
-          <CiUser />
+          <Link to={"/login"}><CiUser /></Link>
           <IoLocation />
 
           <button className="btn p-0" type="button" data-bs-toggle="offcanvas" onClick={GetData} data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><CiShoppingCart /></button>
@@ -90,7 +90,7 @@ const Navbar = () => {
                 : (
                   <div className='d-flex align-items-center justify-content-center'>
                     <img src={img} alt="" />
-                    Cart Is Empty
+                    Your Cart Is Empty
                   </div>
                 )}
               <div className="lane mt-3 d-flex justify-content-center gap-3">

@@ -3,7 +3,10 @@
 
 
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 .row {
     width: 100%;
     /* color: black; */
@@ -1012,4 +1015,31 @@ svg{
     height: 1px;
     width: 100%;
     background-color: black;
+}
+.navber a svg{
+    color: black;
+    margin-top: -8px;
+}
+.login .border{
+    width: fit-content;
+    padding: 40px;
+}
+.login .border input{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+}
+.login .border .btn{
+    background-color: #42413D;
+    color: white;
+    border-radius: 0;
+    transition: 0.3s ease-in-out;
+}
+.login .border .btn:hover{
+    background-color: white;
+    color: #42413D;
+    border: 1px solid #42413D;
 }

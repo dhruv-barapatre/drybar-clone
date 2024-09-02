@@ -6,6 +6,7 @@ import Hairtool from '../PagesForHome/Hairtool'
 import Gift from '../PagesForHome/Gift'
 import Newpage from '../PagesForHome/Newpage'
 import HowTo from '../PagesForHome/HowTo'
+import Login from '../Pages/Login'
 
 const Allroutes = () => {
   return (
@@ -17,6 +18,7 @@ const Allroutes = () => {
         <Route path='/gift-sets' element={ <Gift   />}></Route>
         <Route path='/new' element={ <Newpage   />}></Route>
         <Route path='/how-to' element={ <HowTo />}></Route>
+        <Route path='/login' element={<Login />}></Route>
       </Routes>
     </>
   )

@@ -68,7 +68,7 @@ const Newpage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="new-drybar-products fetchdata">
+                {/* <div className="new-drybar-products fetchdata">
                     <h1>New Drybar Products</h1>
                     <div className="row d-flex justify-content-evenly">
                         {newdata.map((el) => {
@@ -90,7 +90,7 @@ const Newpage = () => {
                             )
                         })}
                     </div>
-                </div>
+                </div> */}
                 <div className="new-video">
                     <h2 className='text-center'>New Videos</h2>
                     <div className="row">
