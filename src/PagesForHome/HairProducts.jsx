@@ -4,15 +4,15 @@ import { IoMdPhonePortrait } from 'react-icons/io';
 import { LuCoins } from 'react-icons/lu';
 import { Link } from 'react-router-dom';
 import Footer from "../Components/Footer";
+import { GrFormNext, GrFormPrevious } from 'react-icons/gr';
 
 const HairProducts = () => {
     const [server, setServer] = useState([]);
     const [data, setData] = useState([]);
-    const [currentPage, setCurrentPage] = useState(1);
-    const itemsPerPage = 5;
+    const [page,setpage]=useState(2)
 
     const fetchData = () => {
-        fetch("http://localhost:3000/hair-products")
+        fetch(`http://localhost:3000/hair-products?_limit=6&_page=${page}`)
             .then(res => res.json())
             .then(data => {
                 setServer(data);
@@ -57,7 +57,6 @@ const HairProducts = () => {
             });
         }
         setServer(filteredData);
-        setCurrentPage(1); // Reset to the first page after filtering
     };
 
     const handleCart = (el) => {
@@ -77,10 +76,6 @@ const HairProducts = () => {
                 alert("Failed to add item to cart. Please try again.");
             });
     };
-
-    const totalPages = Math.ceil(server.length / itemsPerPage);
-    const startIndex = (currentPage - 1) * itemsPerPage;
-    const currentItems = server.slice(startIndex, startIndex + itemsPerPage);
 
     return (
         <div>
@@ -129,7 +124,7 @@ const HairProducts = () => {
                     </div>
                     <div className="fetchdata">
                         <div className="row">
-                            {currentItems.map((el) => {
+                            {server.map((el) => {
                                 const discountPercentage = Math.round(((el.sprice - el.price) / el.sprice) * 100);
                                 return (
                                     <div key={el.id} className='col-4'>
@@ -154,14 +149,9 @@ const HairProducts = () => {
                             })}
                         </div>
                     </div>
-                    <div className="pagination d-flex justify-content-center my-4">
-                        <button onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))} disabled={currentPage === 1}>
-                            Previous
-                        </button>
-                        <span className='mx-2'>{currentPage} of {totalPages}</span>
-                        <button onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))} disabled={currentPage === totalPages}>
-                            Next
-                        </button>
+                    <div className="pagination d-flex justify-content-center gap-5">
+                        <button><GrFormPrevious /></button>
+                        <button><GrFormNext /></button>
                     </div>
                 </div>
                 <Footer />

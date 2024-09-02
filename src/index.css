@@ -974,3 +974,42 @@ select option {
 svg{
     font-size: 20px;
 }
+.nav-btns button svg{
+    font-size: 25px;
+    margin-top: -5px;
+}
+.offcanvas-body img{
+    height: 100px;
+}.del-btn{
+    border: 1px solid black;
+    background-color:white;
+    padding: 5px;
+    border-radius: 4px;
+}
+.pagination button{
+    border: none;
+    padding: 10px 20px;
+    background-color: #42413D;
+    color: white;
+    border: 1px solid #42413D;
+    transform: 10s ease-in-out;
+}
+.offcanvas{
+    overflow-y: scroll;
+}
+.pagination button:hover{
+    background-color: white;
+    color: #42413D;
+}
+.offcanvas-body{
+    overflow: visible;
+}
+.offcanvas-body .pros{
+    padding: 10px;
+    margin: 10px;
+}
+.offcanvas-body .lane{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}

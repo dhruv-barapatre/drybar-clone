@@ -1,7 +1,7 @@
 {
   "gift": [
     {
-      "id": 1,
+      "id": "gift1",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/w/a/waves_for_days_svs_pdp_full_size_3600x3600_1_.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/w/a/waves_for_days_svs_pdp_full_size_3600x3600_1_.jpg",
       "heading": "The Waves For Days Set",
@@ -9,7 +9,7 @@
       "sprice": "259.00"
     },
     {
-      "id": 2,
+      "id": "gift2",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/u/l/ultra_sleek_svs_pdp_carousel_full_size_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/p/o/polyglam_razorfish_model_6.jpg",
       "heading": "The Ultra Sleek Set",
@@ -17,7 +17,7 @@
       "sprice": "233.00"
     },
     {
-      "id": 3,
+      "id": "gift3",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/9/0/90s_ponytail_svs_pdp_carousel_3600x3600_copy.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/9/0/90s_ponytail_svs_pdp_carousel_3600x3600_copy.jpg",
       "heading": "The Textured Ponytail Set",
@@ -25,7 +25,7 @@
       "sprice": "260.00"
     },
     {
-      "id": 4,
+      "id": "gift4",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/u/curtain_bangs_layers_svs_pdp_carousel_full_size_3600x3600_.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/p/o/polyglam_razorfish_model_3_1.jpg",
       "heading": "The Defined Curls & Waves Set",
@@ -33,7 +33,7 @@
       "sprice": "210.00"
     },
     {
-      "id": 5,
+      "id": "gift5",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/soft_bob_svs_pdp_carousel_full_size_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/p/o/polyglam_razorfish_model_2.jpg",
       "heading": "The Soft Bob Set",
@@ -41,7 +41,7 @@
       "sprice": "233.00"
     },
     {
-      "id": 6,
+      "id": "gift6",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/u/full_body_curls_svs_pdp_carousel_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/p/o/polyglam_razorfish_model_8.jpg",
       "heading": "The Full Body Big Curls Set",
@@ -49,7 +49,7 @@
       "sprice": "205.00"
     },
     {
-      "id": 7,
+      "id": "gift7",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/r/craftedforcurls_3600x3600_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/u/buttercupblowdryer_1_9.jpg",
       "heading": "The Crafted For Curls Special Value Set",
@@ -57,7 +57,7 @@
       "sprice": "287.00"
     },
     {
-      "id": 8,
+      "id": "gift8",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/u/supersmoothallstars_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thedoubleshotovalblowdryerbrush_1_3.jpg",
       "heading": "The Double Shot Super Smooth All Stars Special Value Set",
@@ -65,7 +65,7 @@
       "sprice": "244.00"
     },
     {
-      "id": 9,
+      "id": "gift9",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/a/saveyourscalpset_rgb_3600x3600_1_.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/a/saveyourscalpset_rgb_3600x3600_1_.jpg",
       "heading": "The Save Your Scalp Set",
@@ -73,7 +73,7 @@
       "sprice": "145.00"
     },
     {
-      "id": 10,
+      "id": "gift10",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/themaitai_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/a/halfshot_blowdryer_3600x3600-17.jpg",
       "heading": "The Mai Tai Set",
@@ -81,7 +81,7 @@
       "sprice": "215.00"
     },
     {
-      "id": 11,
+      "id": "gift11",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thetoolsbundle1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/u/buttercupblowdryer_2_1.jpg",
       "heading": "The Perfect Blowout Special Value Set",
@@ -89,7 +89,7 @@
       "sprice": "517.00"
     },
     {
-      "id": 12,
+      "id": "gift12",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/q/u/quickandsmooth_2024_3600x3600.png",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/q/u/quickandsmooth_2024_3600x3600.png",
       "heading": "The Single Shot Quick & Smooth Blowout Special Value Set",
@@ -97,7 +97,7 @@
       "sprice": "243.00"
     },
     {
-      "id": 13,
+      "id": "gift13",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/m/smoothshinevalueset_3600x3600_2.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglasssmoothingshampoo_4_3600x3600_4.jpg",
       "heading": "The Smooth & Shine Special Value Set",
@@ -105,7 +105,7 @@
       "sprice": "92.00"
     },
     {
-      "id": 14,
+      "id": "gift14",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/p/r/prepandrefresh_2023_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/p/r/preprallyprimeprepdetanglerfullsize_2_13.jpg",
       "heading": "The Prep & Refresh Special Value Set",
@@ -113,7 +113,7 @@
       "sprice": "45.00"
     },
     {
-      "id": 15,
+      "id": "gift15",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/r/e/readytorefresh_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdrysham_coconutcolada_travel_1_4.jpg",
       "heading": "The Ready to Refresh Special Value Set",
@@ -121,7 +121,7 @@
       "sprice": "45.00"
     },
     {
-      "id": 16,
+      "id": "gift16",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/l/flatlays_3600x3600-14.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/l/flatlays_3600x3600-26.jpg",
       "heading": "Triple Threat Travelers Kit",
@@ -129,7 +129,7 @@
       "sprice": "45.00"
     },
     {
-      "id": 17,
+      "id": "gift17",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/e/getreadywithmeset_rgb_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/e/getreadywithmeset_rgb_3600x3600.jpg",
       "heading": "The Get Ready With Me Set",
@@ -137,7 +137,7 @@
       "sprice": "226.00"
     },
     {
-      "id": 18,
+      "id": "gift18",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/w/e/website_superstartersset_rgb_3600x3600_rev2.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/w/e/website_superstartersset_rgb_3600x3600_rev2.jpg",
       "heading": "The Super Starters Set",
@@ -145,7 +145,7 @@
       "sprice": "303.00"
     },
     {
-      "id": 19,
+      "id": "gift19",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/l/flatlays-12.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/t/stylingsuperstars_3600x3600-1.jpg",
       "heading": "Styling Superstars Kit",
@@ -153,7 +153,7 @@
       "sprice": "50.33"
     },
     {
-      "id": 20,
+      "id": "gift20",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/o/holiday_2022_kits_glossygang.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/o/holiday_2022_flatlays-21.jpg",
       "heading": "Glossy Gang On The Go Kit",
@@ -161,7 +161,7 @@
       "sprice": "52.00"
     },
     {
-      "id": 21,
+      "id": "gift21",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/l/flatlays_3600x3600-10.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/a/farewelltofrizz_3600x3600-1.jpg",
       "heading": "Farewell To Frizz Kit",
@@ -169,7 +169,7 @@
       "sprice": "288.33"
     },
     {
-      "id": 22,
+      "id": "gift22",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/u/cue_the_curls_2024_3600x3600_revised.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/m/i/mixmingleinterchangeablestylingironproductkit_13_1_1.jpg",
       "heading": "The Cue the Curls Special Value Set",
@@ -177,7 +177,7 @@
       "sprice": "292.00"
     },
     {
-      "id": 23,
+      "id": "gift23",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/o/topshelfblowoutkit.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thereserveultralightantifrizzblowdryer_2_1.jpg",
       "heading": "Top Shelf Blowout Bundle",
@@ -185,7 +185,7 @@
       "sprice": "430.00"
     },
     {
-      "id": 24,
+      "id": "gift24",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thecosmoset_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the3daybenderrotatingcurlingiron_2_1_1.jpg",
       "heading": "The Cosmo Set",
@@ -193,7 +193,7 @@
       "sprice": "293.00"
     },
     {
-      "id": 25,
+      "id": "gift25",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the_dirtymartini_2024_3600x3600_002_.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thetresspressstraighteningiron1_3_4.jpg",
       "heading": "The Dirty Martini Set",
@@ -201,7 +201,7 @@
       "sprice": "294.00"
     },
     {
-      "id": 26,
+      "id": "gift26",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southerncomfortset_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southernbellevolumemousse_2_3.jpg",
       "heading": "The Southern Comfort Set",
@@ -209,7 +209,7 @@
       "sprice": "231.00"
     },
     {
-      "id": 27,
+      "id": "gift27",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/m/a/magic-makers.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/o/holiday_2021_flatlay-5.jpg",
       "heading": "The Mixologist & Magic Makers Kit",
@@ -217,7 +217,7 @@
       "sprice": "283.00"
     },
     {
-      "id": 28,
+      "id": "gift28",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/i/highvolumeponyset_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the3daybenderrotatingcurlingiron_3_9.jpg",
       "heading": "High Volume Pony Set",
@@ -225,7 +225,7 @@
       "sprice": "262.00"
     },
     {
-      "id": 29,
+      "id": "gift29",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the-hot-shots.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/o/holiday_2021_flatlay-2.jpg",
       "heading": "The Prep Rally Hot Shots Kit",
@@ -233,7 +233,7 @@
       "sprice": "40.00"
     },
     {
-      "id": 30,
+      "id": "gift30",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thevolumeall-stars_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thedoubleshotovalblowdryerbrush_1_2.jpg",
       "heading": "The Volume All-Stars Special Value Set",
@@ -241,7 +241,7 @@
       "sprice": "217.00"
     },
     {
-      "id": 31,
+      "id": "gift31",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/r/triplesec3in1finishingspraymain_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/r/triplesec3in1finishingsprayblancfullsize_2.jpg",
       "heading": "Triple Sec 3-in-1 Finishing Spray",
@@ -249,7 +249,7 @@
       "sprice": "54.00"
     },
     {
-      "id": 32,
+      "id": "gift32",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thebrushbundle_2.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thebrushbundle_1_1.jpg",
       "heading": "The Brush Special Value Set",
@@ -257,7 +257,7 @@
       "sprice": "241.00"
     },
     {
-      "id": 33,
+      "id": "gift33",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/r/drybar_flight_detox_choices.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/r/drybar_flight_prep_choices.jpg",
       "heading": "Drybar Custom Flight",
@@ -265,7 +265,7 @@
       "sprice": "44.00"
     },
     {
-      "id": 34,
+      "id": "gift34",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/themanhattanset_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/themanhattanbundle_3.jpg",
       "heading": "The Manhattan Special Value Set",
@@ -273,7 +273,7 @@
       "sprice": "360.00"
     },
     {
-      "id": 35,
+      "id": "gift35",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/theluxeblowoutset2024_3600x3600.png",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thereserveultralightantifrizzblowdryer_1_2.jpg",
       "heading": "The Luxe Blowout Special Value Set",
@@ -281,7 +281,7 @@
       "sprice": "373.00"
     },
     {
-      "id": 36,
+      "id": "gift36",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/b/db_ecomm_emmysbundle_mixnmingle_2023.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/m/i/mixmingleinterchangeablestylingironproductkit_13_1.jpg",
       "heading": "The Mix & Mingle Special Value Set",
@@ -289,7 +289,7 @@
       "sprice": "290.00"
     },
     {
-      "id": 37,
+      "id": "gift37",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/i/bighairbesties_box_rgb.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/i/bighairbesties_contents_rgb_1.jpg",
       "heading": "Big Hair Besties Rollers & Clips Set",
@@ -297,7 +297,7 @@
       "sprice": ""
     },
     {
-      "id": 38,
+      "id": "gift38",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/l/flatmateboarbristlebrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/l/flatmateboarbristlebrush_2.jpg",
       "heading": "Flat Mate Boar Bristle Brush",
@@ -305,7 +305,7 @@
       "sprice": ""
     },
     {
-      "id": 39,
+      "id": "gift39",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/m/i/mixmingleinterchangeablestylingironproductkit_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/m/i/mixmingleinterchangeablestylingironproductkit_14.jpg",
       "heading": "Mix & Mingle Interchangeable Styling Iron Kit",
@@ -313,7 +313,7 @@
       "sprice": "287.00"
     },
     {
-      "id": 40,
+      "id": "gift40",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/e/seltzerspritz_hairspray_original_rtl_3600x3600_adjustment.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/e/seltzerspritz_ba.jpg",
       "heading": "Seltzer Spritz Flexible Hold Hairspray",
@@ -321,7 +321,7 @@
       "sprice": "54.00"
     },
     {
-      "id": 41,
+      "id": "gift41",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/m/r/mrincredibleleaveinconditionerfullsize_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/m/r/mrincredibleleaveinconditionerfullsize_2_1.jpg",
       "heading": "Mr. Incredible The Ultimate Leave-In Conditioner Full Size",
@@ -329,7 +329,7 @@
       "sprice": ""
     },
     {
-      "id": 42,
+      "id": "gift42",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist_styler.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist-29.jpg",
       "heading": "Gin Twist Curl Conditioning Styler",
@@ -337,7 +337,7 @@
       "sprice": ""
     },
     {
-      "id": 43,
+      "id": "gift43",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist_gelee.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist-31.jpg",
       "heading": "Gin Twist Edge Control Gel",
@@ -345,7 +345,7 @@
       "sprice": ""
     },
     {
-      "id": 44,
+      "id": "gift44",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thebabybrushcrushministraighteningbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thebabybrushcrushministraighteningbrush_2.jpg",
       "heading": "The Baby Brush Crush Mini Heated Straightening Brush",
@@ -353,7 +353,7 @@
       "sprice": ""
     },
     {
-      "id": 45,
+      "id": "gift45",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thetresspressstraighteningiron125_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thetresspressstraighteningiron125_4.jpg",
       "heading": "The Tress Press Straightening Iron 1.25\"",
@@ -361,7 +361,7 @@
       "sprice": ""
     },
     {
-      "id": 46,
+      "id": "gift46",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/sobellemousse_travel_white_rgb_new.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/sobellemousse_travel_white_rgb_new.jpg",
       "heading": "Southern Belle Volume-Boosting Mousse Travel Size",
@@ -369,7 +369,7 @@
       "sprice": ""
     },
     {
-      "id": 47,
+      "id": "gift47",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/u/fullpintmediumroundceramicbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/u/fullpintmediumroundceramicbrush_1.jpg",
       "heading": "Full Pint Medium Round Ceramic Brush",
@@ -377,7 +377,7 @@
       "sprice": ""
     },
     {
-      "id": 48,
+      "id": "gift48",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/u/superlemondropdetanglerbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/u/superlemondropdetanglerbrush_1.jpg",
       "heading": "Super Lemon Drop Daily Detangler Brush",
@@ -385,7 +385,7 @@
       "sprice": ""
     },
     {
-      "id": 49,
+      "id": "gift49",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/o/hottoddyheatprotectantmistfullsize_1.jpg.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/o/hottoddyheatprotectantmistfullsize_3.jpg",
       "heading": "Hot Toddy Heat Protectant Mist",
@@ -393,7 +393,7 @@
       "sprice": "54.00"
     },
     {
-      "id": 50,
+      "id": "gift50",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglasssealant_travel.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglasssealant_travel.jpg",
       "heading": "Liquid Glass Miracle Smoothing Sealant Travel Size",
@@ -401,7 +401,7 @@
       "sprice": ""
     },
     {
-      "id": 51,
+      "id": "gift51",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/u/fullkegboarbristleroundbrush_2.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/u/fullkegboarbristleroundbrush_1.jpg",
       "heading": "Full Keg Boar Bristle Round Brush",
@@ -409,7 +409,7 @@
       "sprice": "85.00"
     },
     {
-      "id": 52,
+      "id": "gift52",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshamcoconutcolada_travel_white_3600x3600_new.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshamcoconutcolada_travel_white_3600x3600_new.jpg",
       "heading": "Detox Dry Shampoo Coconut Colada Scent Travel Size",
@@ -417,7 +417,7 @@
       "sprice": ""
     },
     {
-      "id": 53,
+      "id": "gift53",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thereserveultralightantifrizzblowdryer_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/r/e/reserveblowdryer_beforeafter.jpg",
       "heading": "Drybar Reserve Ultralight Anti-Frizz Blow-Dryer",
@@ -425,7 +425,7 @@
       "sprice": ""
     },
     {
-      "id": 54,
+      "id": "gift54",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglasssmoothingshampoo_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglass_flatlay-wbadge_2.jpg",
       "heading": "Liquid Glass Smoothing Shampoo",
@@ -433,7 +433,7 @@
       "sprice": "59.00"
     },
     {
-      "id": 55,
+      "id": "gift55",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/a/halfpintsmallroundceramicbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/a/halfpintsmallroundceramicbrush_1.jpg",
       "heading": "Half Pint Small Round Ceramic Brush",
@@ -441,7 +441,7 @@
       "sprice": ""
     },
     {
-      "id": 56,
+      "id": "gift56",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thebrushcrushheatedstraighteningbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thebrushcrushheatedstraighteningbrush_6.jpg",
       "heading": "The Brush Crush Heated Straightening Brush",
@@ -449,7 +449,7 @@
       "sprice": ""
     },
     {
-      "id": 57,
+      "id": "gift57",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/p/r/preprallyprimeprepdetanglerfullsize_1_2.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/p/r/preprallyprimeprepdetanglerfullsize_5.jpg",
       "heading": "Prep Rally Prime & Prep Detangler",
@@ -457,7 +457,7 @@
       "sprice": "27.00"
     },
     {
-      "id": 58,
+      "id": "gift58",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/themixologistinterchangeablestylingiron_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/themixologistinterchangeablestylingiron_18.jpg",
       "heading": "The Mixologist Interchangeable Styling Iron",
@@ -465,7 +465,7 @@
       "sprice": ""
     },
     {
-      "id": 59,
+      "id": "gift59",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/m/r/mrincredibleleaveinconditionerfullsize_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/m/r/mrincredibleleaveinconditionerfullsize_2.jpg",
       "heading": "Mr. Incredible The Ultimate Leave-In Conditioner",
@@ -473,7 +473,7 @@
       "sprice": "26.00"
     },
     {
-      "id": 60,
+      "id": "gift60",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/e/texasteaseteasingbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/e/texasteaseteasingbrush_1.jpg",
       "heading": "Texas Tease Teasing Brush",
@@ -481,7 +481,7 @@
       "sprice": ""
     },
     {
-      "id": 61,
+      "id": "gift61",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/o/n/ontherockscharcoalshampoofullsize_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/o/n/ontherocks_flatlay_wbadge.jpg",
       "heading": "On the Rocks Clarifying Charcoal Shampoo",
@@ -489,7 +489,7 @@
       "sprice": "59.00"
     },
     {
-      "id": 62,
+      "id": "gift62",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/p/r/preprally_travel_white_rgb_3600x3600_new.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/p/r/preprallyprimeprepdetanglertravelsize_2.jpg",
       "heading": "Prep Rally Prime & Prep Detangler Travel Size",
@@ -497,7 +497,7 @@
       "sprice": ""
     },
     {
-      "id": 63,
+      "id": "gift63",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/o/n/ontherocksconditionerfullsize_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/o/n/ontherocksconditionerfullsize_2.jpg",
       "heading": "On the Rocks Lightweight Conditioner",
@@ -505,7 +505,7 @@
       "sprice": "59.00"
     },
     {
-      "id": 64,
+      "id": "gift64",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/o/n/onetwopunch_0_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/o/n/onetwopunch_flatlay_wbadge.jpg",
       "heading": "One-Two Punch Water-Activated 2-in-1 Hair Wash",
@@ -513,7 +513,7 @@
       "sprice": ""
     },
     {
-      "id": 65,
+      "id": "gift65",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/r/e/refreshandfinish_3600x3600.png",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/i/finalcall_blanc_travel_white_rgb_large_2.jpg",
       "heading": "The Refresh & Finish Trio Special Value Set",
@@ -521,7 +521,7 @@
       "sprice": "45.00"
     },
     {
-      "id": 66,
+      "id": "gift66",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/u/bundaybestieshairties_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/u/bundaybestieshairties_1.jpg",
       "heading": "Bun-Day Besties Hair Ties",
@@ -529,7 +529,7 @@
       "sprice": ""
     },
     {
-      "id": 67,
+      "id": "gift67",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/o/hottoddymist_travel_white_3600x3600_new.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/o/hottoddymist_travel_white_3600x3600_new.jpg",
       "heading": "Hot Toddy Heat Protectant Mist Travel Size",
@@ -537,7 +537,7 @@
       "sprice": ""
     },
     {
-      "id": 68,
+      "id": "gift68",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglassinstantglossingrinse.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglass_gloss-1.jpg",
       "heading": "Liquid Glass Instant Glossing Rinse",
@@ -545,7 +545,7 @@
       "sprice": ""
     },
     {
-      "id": 69,
+      "id": "gift69",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thesingleshotroundblowdryerbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thesingleshotroundblowdryerbrush_2_3600x3600_6.jpg",
       "heading": "The Single Shot Round Blow-Dryer Brush",
@@ -553,7 +553,7 @@
       "sprice": ""
     },
     {
-      "id": 70,
+      "id": "gift70",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglasssmoothingconditioner_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglass_flatlay-wbadge_5.jpg",
       "heading": "Liquid Glass Smoothing Conditioner",
@@ -561,7 +561,7 @@
       "sprice": "59.00"
     },
     {
-      "id": 71,
+      "id": "gift71",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/lillemondroptraveldetanglerbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/lillemondroptraveldetanglerbrush_1.jpg",
       "heading": "Lil' Lemon Drop Travel Detangler Brush",
@@ -569,7 +569,7 @@
       "sprice": ""
     },
     {
-      "id": 72,
+      "id": "gift72",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thedoubleshotovalblowdryerbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thedoubleshotovalblowdryerbrush_5_3600x3600.jpg",
       "heading": "The Double Shot Oval Blow-Dryer Brush",
@@ -577,7 +577,7 @@
       "sprice": ""
     },
     {
-      "id": 73,
+      "id": "gift73",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglass_flatlay-1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglass_sealant-12.jpg",
       "heading": "Liquid Glass Miracle Smoothing Sealant",
@@ -585,7 +585,7 @@
       "sprice": "34.00"
     },
     {
-      "id": 74,
+      "id": "gift74",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/u/buttercupblowdryer_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/u/buttercupblowdryer_2.jpg",
       "heading": "Buttercup Blow-Dryer",
@@ -593,7 +593,7 @@
       "sprice": ""
     },
     {
-      "id": 75,
+      "id": "gift75",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southernbellevolumemousse_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southernbellevolumemousse_3_1.jpg",
       "heading": "Southern Belle Volume-Boosting Mousse",
@@ -601,7 +601,7 @@
       "sprice": "54.00"
     },
     {
-      "id": 76,
+      "id": "gift76",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/a/babybuttercuptravelblowdryer_3.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/a/babybuttercuptravelblowdryer_1.jpg",
       "heading": "Baby Buttercup Travel Blow-Dryer",
@@ -609,7 +609,7 @@
       "sprice": ""
     },
     {
-      "id": 77,
+      "id": "gift77",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thelemonbarpaddlebrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thelemonbarpaddlebrush_5.jpg",
       "heading": "The Lemon Bar Paddle Brush",
@@ -617,7 +617,7 @@
       "sprice": ""
     },
     {
-      "id": 78,
+      "id": "gift78",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/o/holdmehairclips_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/o/holdmehairclips_2.jpg",
       "heading": "Hold Me Hair Clips",
@@ -625,7 +625,7 @@
       "sprice": ""
     },
     {
-      "id": 79,
+      "id": "gift79",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/r/triplesecblanc_travel_white_3600x3600_new.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/r/triplesecblanc_travel_white_3600x3600_new.jpg",
       "heading": "Triple Sec 3-in-1 Finishing Spray Blanc Scent Travel Size",
@@ -633,7 +633,7 @@
       "sprice": ""
     },
     {
-      "id": 80,
+      "id": "gift80",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshampoooriginaljumbosize_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshampoooriginaljumbosize_2.jpg",
       "heading": "Detox Dry Shampoo Original Scent Jumbo Size",
@@ -641,7 +641,7 @@
       "sprice": ""
     },
     {
-      "id": 81,
+      "id": "gift81",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/m/o/moneymaker_travel_white_3600x3600_new.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/m/o/moneymaker_travel_white_3600x3600_new.jpg",
       "heading": "Money Maker Flexible Hold Hairspray Travel Size",
@@ -649,7 +649,7 @@
       "sprice": ""
     },
     {
-      "id": 82,
+      "id": "gift82",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshamoriginal_travel_white_3600x3600_new_3.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshamoriginal_travel_white_3600x3600_new_3.jpg",
       "heading": "Detox Dry Shampoo Original Scent Travel Size",
@@ -657,7 +657,7 @@
       "sprice": ""
     },
     {
-      "id": 83,
+      "id": "gift83",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdrysham_coconutcolada_retail_voc_rgb.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshampoococonutcoladafullsize_2_new.jpg",
       "heading": "Detox Dry Shampoo Coconut Colada Scent",
@@ -665,7 +665,7 @@
       "sprice": ""
     },
     {
-      "id": 84,
+      "id": "gift84",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/themorningaftershowercap_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/themorningaftershowercap_2.jpg",
       "heading": "The Morning After Shower Cap",
@@ -673,7 +673,7 @@
       "sprice": ""
     },
     {
-      "id": 85,
+      "id": "gift85",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thebouncerdiffuser_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thebouncerdiffuser_1.jpg",
       "heading": "The Bouncer Diffuser",
@@ -681,7 +681,7 @@
       "sprice": ""
     },
     {
-      "id": 86,
+      "id": "gift86",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/l/blondealebrighteningshampoo_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/l/blondeale_flatlay_wbadge2.jpg",
       "heading": "Blonde Ale Brightening Shampoo",
@@ -689,7 +689,7 @@
       "sprice": ""
     },
     {
-      "id": 87,
+      "id": "gift87",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/theultimatesmoothsleekcoloda_svs_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thedoubleshotovalblowdryerbrush_1_1.jpg",
       "heading": "The Ultimate Smooth & Sleek Special Value Set",
@@ -697,7 +697,7 @@
       "sprice": "231.49"
     },
     {
-      "id": 88,
+      "id": "gift88",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/u/cureliqueurtrio_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/u/cure_liqueur-26.jpg",
       "heading": "The Cure Liqueur Trio Special Value Set",
@@ -705,7 +705,7 @@
       "sprice": "99.00"
     },
     {
-      "id": 89,
+      "id": "gift89",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/t/stayhydratedset_rgb_3600x3600_1_.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/t/stayhydratedset_rgb_3600x3600_1_.jpg",
       "heading": "The Stay Hydrated Set",
@@ -713,7 +713,7 @@
       "sprice": "241.00"
     },
     {
-      "id": 90,
+      "id": "gift90",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/o/holiday_2022_kits_doubleshotjackpot.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/o/holiday_2022_flatlays-8.jpg",
       "heading": "The Double Shot Jackpot Kit",
@@ -721,7 +721,7 @@
       "sprice": "243.00"
     },
     {
-      "id": 91,
+      "id": "gift91",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/u/summerstyles_braidscolada_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/r/braid_parade_1a.jpg",
       "heading": "Braid Parade Set",
@@ -729,7 +729,7 @@
       "sprice": "226.00"
     },
     {
-      "id": 92,
+      "id": "gift92",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/theuptiniset_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the3daybenderrotatingcurlingiron_3_6.jpg",
       "heading": "The Uptini Special Value Set",
@@ -737,7 +737,7 @@
       "sprice": "271.00"
     },
     {
-      "id": 93,
+      "id": "gift93",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southernbellevolumerootlifterfullsize_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southernbellevolumerootlifterfullsize_2.jpg",
       "heading": "Southern Belle Volume-Boosting Root Lifter",
@@ -745,7 +745,7 @@
       "sprice": "29.00"
     },
     {
-      "id": 94,
+      "id": "gift94",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshamlush_travel_white_3600x3600_new.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshamlush_travel_white_3600x3600_new.jpg",
       "heading": "Detox Dry Shampoo Lush Scent Travel Size",
@@ -753,7 +753,7 @@
       "sprice": ""
     },
     {
-      "id": 95,
+      "id": "gift95",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/l/blondealebrighteningconditioner_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/l/blondeale_flatlay_wbadge_1.jpg",
       "heading": "Blonde Ale Brightening Conditioner",
@@ -761,7 +761,7 @@
       "sprice": ""
     },
     {
-      "id": 96,
+      "id": "gift96",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the_sheriff_medium_hold_hairspray.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the_sheriff_medium_hold_hairspray.jpg",
       "heading": "The Sheriff Medium Hold Hairspray",
@@ -771,35 +771,35 @@
   ],
   "new": [
     {
-      "id": 1,
+      "id": "new1",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/g/lg_finishingserum.jpg",
       "hoverImg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/g/lgserum_ba_2.jpg",
       "productheading": "Liquid Glass High-Gloss Finishing Serum",
       "price": "30.00"
     },
     {
-      "id": 2,
+      "id": "new2",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/g/lg_sparklingsoda.jpg",
       "hoverImg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/p/sparklingsoda_ba_3.jpg",
       "productheading": "Sparkling Soda Shine Mist & UV Shield",
       "price": "29.00"
     },
     {
-      "id": 3,
+      "id": "new3",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/r/o/rollerclub_withclip.jpg",
       "hoverImg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/r/o/rollerclub_ba_1.jpg",
       "productheading": "The Roller Club Curling Hot Rollers",
       "price": "129.00"
     },
     {
-      "id": 4,
+      "id": "new4",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/r/u/rumpunch_hairspray_original_rtl_3600x3600_adjustment.jpg",
       "hoverImg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/r/u/rumpunch_ba.jpg",
       "productheading": "Rum Punch Strong Hold Volumizing Hairspray",
       "price": "32.00"
     },
     {
-      "id": 5,
+      "id": "new5",
       "img": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/g/lg_blowoutcream.jpg",
       "hoverImg": "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/g/lgcream_ba_2.jpg",
       "productheading": "Liquid Glass High-Gloss Smoothing Blowout Cream",
@@ -808,7 +808,7 @@
   ],
   "hair-products": [
     {
-      "id": 1,
+      "id": "hair-products1",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxdryshampoooriginaljumbosize_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxdryshampoooriginaljumbosize_2.jpg",
       "price": "33.60",
@@ -816,7 +816,7 @@
       "heading": "Detox Dry Shampoo Original Scent Jumbo Size"
     },
     {
-      "id": 2,
+      "id": "hair-products2",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxclearinvisibledryshampoofullsize_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxclearinvisibledryshampoofullsize_3.jpg",
       "price": "22.40",
@@ -824,7 +824,7 @@
       "heading": "Detox Clear Invisible Dry Shampoo"
     },
     {
-      "id": 3,
+      "id": "hair-products3",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/o/southernbellevolumerootlifterfullsize_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/o/southernbellevolumerootlifterfullsize_2_4.jpg",
       "price": "23.20",
@@ -832,7 +832,7 @@
       "heading": "Southern Belle Volume-Boosting Root Lifter Full Size"
     },
     {
-      "id": 4,
+      "id": "hair-products4",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxdrysham_grapefruitmimosa_retail_voc_white_rgb.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxdryshampoograpefruitmimosafullsize_4_update.jpg",
       "price": "22.40",
@@ -840,7 +840,7 @@
       "heading": "Detox Dry Shampoo Grapefruit Mimosa Scent Full Size"
     },
     {
-      "id": 5,
+      "id": "hair-products5",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxdrysham_sangriaspritzer_retail_voc_white_rgb.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxdryshampoosangriaspritzer_3.jpg",
       "price": "22.40",
@@ -848,7 +848,7 @@
       "heading": "Detox Dry Shampoo Sangria Spritzer Scent Full Size"
     },
     {
-      "id": 6,
+      "id": "hair-products6",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/l/blondealebrighteningshampoo_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/l/blondeale_flatlay_wbadge2.jpg",
       "price": "23.20",
@@ -856,7 +856,7 @@
       "heading": "Blonde Ale Brightening Shampoo"
     },
     {
-      "id": 7,
+      "id": "hair-products7",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/i/bigswigthickeningsprayfullsize_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/i/bigswigthickeningsprayfullsize_19_1.jpg",
       "price": "22.40",
@@ -864,7 +864,7 @@
       "heading": "Big Swig Thickening Spray"
     },
     {
-      "id": 8,
+      "id": "hair-products8",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/m/r/mrincredibleleaveinconditionerfullsize_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/m/r/mrincredibleleaveinconditionerfullsize_2_1.jpg",
       "price": "20.80",
@@ -872,7 +872,7 @@
       "heading": "Mr. Incredible The Ultimate Leave-In Conditioner Full Size"
     },
     {
-      "id": 9,
+      "id": "hair-products9",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/m/o/moneymaker_backbar_rgb_large.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/m/o/moneymaker_backbar_rgb_large.jpg",
       "price": "28.00",
@@ -880,7 +880,7 @@
       "heading": "Money Maker Flexible Hold Hairspray Jumbo Size"
     },
     {
-      "id": 10,
+      "id": "hair-products10",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/g/i/gin_twist_styler.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/g/i/gin_twist-29.jpg",
       "price": "22.40",
@@ -888,7 +888,7 @@
       "heading": "Gin Twist Curl Conditioning Styler"
     },
     {
-      "id": 11,
+      "id": "hair-products11",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/l/i/liquidglassinstantglossingrinse.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/l/i/liquidglass_gloss-1.jpg",
       "price": "27.20",
@@ -896,7 +896,7 @@
       "heading": "Liquid Glass Instant Glossing Rinse"
     },
     {
-      "id": 12,
+      "id": "hair-products12",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxthickening.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxthickening-13.jpg",
       "price": "22.40",
@@ -904,7 +904,7 @@
       "heading": "Detox Thickening Dry Shampoo"
     },
     {
-      "id": 13,
+      "id": "hair-products13",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/c/u/cure_liqueur_ps.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/c/u/cure_liqueur-6.jpg",
       "price": "28.00",
@@ -912,7 +912,7 @@
       "heading": "Cure Liqueur Restorative Pre-Shampoo Treatment Oil"
     },
     {
-      "id": 14,
+      "id": "hair-products14",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/o/n/onetwopunch_0_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/o/n/onetwopunch_flatlay_wbadge.jpg",
       "price": "18.40",
@@ -920,7 +920,7 @@
       "heading": "One-Two Punch Water-Activated 2-in-1 Hair Wash"
     },
     {
-      "id": 15,
+      "id": "hair-products15",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/f/i/finalcall_blanc_travel_white_rgb_large.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/f/i/finalcall_blanc_travel_white_rgb_large.jpg",
       "price": "12.00",
@@ -928,7 +928,7 @@
       "heading": "Final Call Frizz & Static Control Mist Travel Size"
     },
     {
-      "id": 16,
+      "id": "hair-products16",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxgentle.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxgentle_infographic1_benefits.jpg",
       "price": "22.40",
@@ -936,7 +936,7 @@
       "heading": "Detox Gentle Sensitive Scalp Dry Shampoo"
     },
     {
-      "id": 17,
+      "id": "hair-products17",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/c/r/crowntonic_allure.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/c/r/crowntonic_flatlay-7.jpg",
       "price": "28.80",
@@ -944,7 +944,7 @@
       "heading": "Crown Tonic Pre-Shampoo Scalp-Balancing Cleanser"
     },
     {
-      "id": 18,
+      "id": "hair-products18",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/a/g/aguafrescaconditioningmilk_retail_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/a/g/aguafrescamilk_flatlay_wbadge.jpg",
       "price": "22.40",
@@ -952,7 +952,7 @@
       "heading": "Agua Fresca Leave-In Conditioning Milk"
     },
     {
-      "id": 19,
+      "id": "hair-products19",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/g/i/gin_twist_gelee.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/g/i/gin_twist-31.jpg",
       "price": "20.80",
@@ -960,7 +960,7 @@
       "heading": "Gin Twist Edge Control Gel"
     },
     {
-      "id": 20,
+      "id": "hair-products20",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/i/bigbrew_cap.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/i/bigbrew_ba-2.jpg",
       "price": "27.20",
@@ -968,7 +968,7 @@
       "heading": "Big Brew Instant Thickening Styling Treatment"
     },
     {
-      "id": 21,
+      "id": "hair-products21",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/f/i/finalcall_blanc_us_retail_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/f/i/finalcall_ba_2_1.jpg",
       "price": "33.60",
@@ -976,7 +976,7 @@
       "heading": "Final Call Frizz & Static Control Mist Jumbo Size"
     },
     {
-      "id": 22,
+      "id": "hair-products22",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/r/u/rumpunch_hairspray_original_rtl_3600x3600_adjustment.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/r/u/rumpunch_ba.jpg",
       "price": "25.60",
@@ -984,7 +984,7 @@
       "heading": "Rum Punch Strong Hold Volumizing Hairspray"
     },
     {
-      "id": 25,
+      "id": "hair-products25",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/e/seltzerspritz_hairspray_original_rtl_3600x3600_adjustment.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/e/seltzerspritz_ba.jpg",
       "price": "12.00",
@@ -992,7 +992,7 @@
       "heading": "Seltzer Spritz Flexible Hold Hairspray"
     },
     {
-      "id": 26,
+      "id": "hair-products26",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxdrysham_petal_retail_voc_3600x3600_150dpi_1_.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxdrysham_petal_retail_voc_3600x3600_150dpi_1_.jpg",
       "price": "22.40",
@@ -1000,7 +1000,7 @@
       "heading": "Detox Dry Shampoo Petal Scent Full Size"
     },
     {
-      "id": 27,
+      "id": "hair-products27",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/c/o/cocomintfloat.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/c/o/cocomintfloat_2023_infographic1.jpg",
       "price": "28.80",
@@ -1008,7 +1008,7 @@
       "heading": "Cocomint Float Scalp and Body Scrub"
     },
     {
-      "id": 32,
+      "id": "hair-products32",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/e/seltzerspritz_hairspray_original_bb_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/e/seltzerspritz_ba_1.jpg",
       "price": "43.20",
@@ -1016,7 +1016,7 @@
       "heading": "Seltzer Spritz Flexible Hold Hairspray Jumbo Size"
     },
     {
-      "id": 33,
+      "id": "hair-products33",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/h/i/highvolumeponyset_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/the3daybenderrotatingcurlingiron_3_9.jpg",
       "price": "206.30",
@@ -1024,7 +1024,7 @@
       "heading": "High Volume Pony Set"
     },
     {
-      "id": 34,
+      "id": "hair-products34",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/o/southerncomfortset_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/o/southernbellevolumemousse_2_3.jpg",
       "price": "173.50",
@@ -1032,7 +1032,7 @@
       "heading": "The Southern Comfort Set"
     },
     {
-      "id": 35,
+      "id": "hair-products35",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thecosmoset_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/the3daybenderrotatingcurlingiron_2_1_1.jpg",
       "price": "228.30",
@@ -1040,7 +1040,7 @@
       "heading": "The Cosmo Set"
     },
     {
-      "id": 36,
+      "id": "hair-products36",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/f/i/finalcall_blanc_retail_white_rgb_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/f/i/finalcall_ba_2_2.jpg",
       "price": "12.00",
@@ -1048,7 +1048,7 @@
       "heading": "Final Call Frizz & Static Control Mist"
     },
     {
-      "id": 37,
+      "id": "hair-products37",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/c/u/cureliqueurcond_retail_bottle_3500x3500_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/c/u/cureliqueur_flatlay_wbadge_5.jpg",
       "price": "25.60",
@@ -1056,7 +1056,7 @@
       "heading": "Cure Liqueur Strengthening Conditioner"
     },
     {
-      "id": 38,
+      "id": "hair-products38",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/c/u/cureliqueursham_retail_bottle_3500x3500_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/c/u/cureliqueur_flatlay_wbadge_3.jpg",
       "price": "25.60",
@@ -1064,7 +1064,7 @@
       "heading": "Cure Liqueur Strengthening Shampoo"
     },
     {
-      "id": 39,
+      "id": "hair-products39",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/a/g/aguafresca_cond_retail_white_rgb_dotcom_3600x3600_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/a/g/aguafresca_flatlay_wbadge.jpg",
       "price": "23.20",
@@ -1072,7 +1072,7 @@
       "heading": "Agua Fresca Hydrating Conditioner"
     },
     {
-      "id": 40,
+      "id": "hair-products40",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/a/g/aguafresca_sham_retail_white_rgb_dotcom_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/a/g/aguafresca_flatlay_wbadge_3.jpg",
       "price": "23.20",
@@ -1080,7 +1080,7 @@
       "heading": "Agua Fresca Hydrating Shampoo"
     },
     {
-      "id": 41,
+      "id": "hair-products41",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/g/i/gin_twist_sham_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/g/i/gintwist_flatlay_wbadge_3.jpg",
       "price": "26.00",
@@ -1088,7 +1088,7 @@
       "heading": "Gin Twist Curl Quenching Shampoo"
     },
     {
-      "id": 42,
+      "id": "hair-products42",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/l/i/liquidglasssmoothingconditioner_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/l/i/liquidglass_flatlay-wbadge_5.jpg",
       "price": "8.80",
@@ -1096,7 +1096,7 @@
       "heading": "Liquid Glass Smoothing Conditioner"
     },
     {
-      "id": 43,
+      "id": "hair-products43",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/l/i/liquidglasssmoothingshampoo_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/l/i/liquidglass_flatlay-wbadge_2.jpg",
       "price": "8.80",
@@ -1104,7 +1104,7 @@
       "heading": "Liquid Glass Smoothing Shampoo"
     },
     {
-      "id": 44,
+      "id": "hair-products44",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/l/i/liquidglass_flatlay-1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/l/i/liquidglass_sealant-12.jpg",
       "price": "12.80",
@@ -1112,7 +1112,7 @@
       "heading": "Liquid Glass Miracle Smoothing Sealant"
     },
     {
-      "id": 45,
+      "id": "hair-products45",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/o/southernbellevolumemousse_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/o/southernbellevolumemousse_3_1.jpg",
       "price": "12.00",
@@ -1120,7 +1120,7 @@
       "heading": "Southern Belle Volume-Boosting Mousse"
     },
     {
-      "id": 46,
+      "id": "hair-products46",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/o/southernbellevolumerootlifterfullsize_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/o/southernbellevolumerootlifterfullsize_2.jpg",
       "price": "23.20",
@@ -1128,7 +1128,7 @@
       "heading": "Southern Belle Volume-Boosting Root Lifter"
     },
     {
-      "id": 47,
+      "id": "hair-products47",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/p/r/preprallyprimeprepdetanglerfullsize_1_2.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/p/r/preprally_flatlay_wbadge.jpg",
       "price": "12.00",
@@ -1136,7 +1136,7 @@
       "heading": "Prep Rally Prime & Prep Detangler"
     },
     {
-      "id": 48,
+      "id": "hair-products48",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/o/n/ontherockscharcoalshampoofullsize_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/o/n/ontherocks_flatlay_wbadge.jpg",
       "price": "8.80",
@@ -1144,7 +1144,7 @@
       "heading": "On the Rocks Clarifying Charcoal Shampoo"
     },
     {
-      "id": 49,
+      "id": "hair-products49",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/o/n/ontherocksconditionerfullsize_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/o/n/ontherocks_flatlay_wbadge_3.jpg",
       "price": "6.60",
@@ -1152,7 +1152,7 @@
       "heading": "On the Rocks Lightweight Conditioner"
     },
     {
-      "id": 50,
+      "id": "hair-products50",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/h/o/hottoddyheatprotectantmistfullsize_1.jpg.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/h/o/hottoddyheatprotectantmistfullsize_3.jpg",
       "price": "12.00",
@@ -1160,7 +1160,7 @@
       "heading": "Hot Toddy Heat Protectant Mist"
     },
     {
-      "id": 51,
+      "id": "hair-products51",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/r/triplesec3in1finishingspraymain_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/r/triplesec3in1finishingsprayblancfullsize_2.jpg",
       "price": "12.00",
@@ -1168,7 +1168,7 @@
       "heading": "Triple Sec 3-in-1 Finishing Spray"
     },
     {
-      "id": 52,
+      "id": "hair-products52",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/p/sparklingsodashinemistfullsize_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/p/sparklingsodashinemistfullsize_1.jpg",
       "price": "9.00",
@@ -1176,7 +1176,7 @@
       "heading": "Sparkling Soda Shine Mist"
     },
     {
-      "id": 53,
+      "id": "hair-products53",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/m/o/moneymakerflexibleholdhairsprayfullsize_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/m/o/moneymakerflexibleholdhairsprayfullsize_1.jpg",
       "price": "12.00",
@@ -1184,7 +1184,7 @@
       "heading": "Money Maker Flexible Hold Hairspray"
     },
     {
-      "id": 54,
+      "id": "hair-products54",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detox_collection.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxrefresh_ba_retailer_3600x3600_2.jpg",
       "price": "12.00",
@@ -1192,7 +1192,7 @@
       "heading": "Detox Dry Shampoo"
     },
     {
-      "id": 55,
+      "id": "hair-products55",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/l/blondealebrighteningconditioner_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/l/blondeale_flatlay_wbadge_1.jpg",
       "price": "23.20",
@@ -1200,7 +1200,7 @@
       "heading": "Blonde Ale Brightening Conditioner"
     },
     {
-      "id": 56,
+      "id": "hair-products56",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxdryshamvanillabourbon_retail_white_rgb_update.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxdryshampoovanillabourbonfullsize_6_update.jpg",
       "price": "22.40",
@@ -1210,7 +1210,7 @@
   ],
   "hair-tool": [
     {
-      "id": 1,
+      "id": "hair-tool1",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thedoubleshotovalblowdryerbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thedoubleshotovalblowdryerbrush_5_3600x3600.jpg",
       "heading": "The Double Shot Oval Blow-Dryer Brush",
@@ -1218,7 +1218,7 @@
       "sprice": "155.00"
     },
     {
-      "id": 2,
+      "id": "hair-tool2",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/u/superlemondropdetanglerbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/u/superlemondropdetanglerbrush_1.jpg",
       "heading": "Super Lemon Drop Daily Detangler Brush",
@@ -1226,7 +1226,7 @@
       "sprice": "20.00"
     },
     {
-      "id": 3,
+      "id": "hair-tool3",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/themorningaftershowercap_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/themorningaftershowercap_2.jpg",
       "heading": "The Morning After Shower Cap",
@@ -1234,7 +1234,7 @@
       "sprice": "16.00"
     },
     {
-      "id": 4,
+      "id": "hair-tool4",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thesingleshotroundblowdryerbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thesingleshotroundblowdryerbrush_2_3600x3600_6.jpg",
       "heading": "The Single Shot Round Blow-Dryer Brush",
@@ -1242,7 +1242,7 @@
       "sprice": "155.00"
     },
     {
-      "id": 5,
+      "id": "hair-tool5",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/u/buttercupblowdryer_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/u/buttercupblowdryer_2.jpg",
       "heading": "Buttercup Blow-Dryer",
@@ -1250,7 +1250,7 @@
       "sprice": "199.00"
     },
     {
-      "id": 6,
+      "id": "hair-tool6",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/h/i/hightopsselfgriprollers_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/h/i/hightopsselfgriprollers_2.jpg",
       "heading": "High Tops Self-Grip Rollers",
@@ -1258,7 +1258,7 @@
       "sprice": "12.00"
     },
     {
-      "id": 7,
+      "id": "hair-tool7",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/l/i/lillemondroptraveldetanglerbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/l/i/lillemondroptraveldetanglerbrush_1.jpg",
       "heading": "Lil' Lemon Drop Travel Detangler Brush",
@@ -1266,7 +1266,7 @@
       "sprice": "12.00"
     },
     {
-      "id": 8,
+      "id": "hair-tool8",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/h/o/holdmehairclips_1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/h/o/holdmehairclips_2.jpg",
       "heading": "Hold Me Hair Clips",
@@ -1274,7 +1274,7 @@
       "sprice": "19.00"
     },
     {
-      "id": 9,
+      "id": "hair-tool9",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thebrushcrushheatedstraighteningbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thebrushcrushheatedstraighteningbrush_9.jpg",
       "heading": "The Brush Crush Heated Straightening Brush",
@@ -1282,7 +1282,7 @@
       "sprice": "149.00"
     },
     {
-      "id": 10,
+      "id": "hair-tool10",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/o/bouncerdiffuser_4.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/o/bouncerdiffuser_5.jpg",
       "heading": "The Bouncer Diffuser",
@@ -1290,7 +1290,7 @@
       "sprice": "34.00"
     },
     {
-      "id": 11,
+      "id": "hair-tool11",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/a/babybuttercuptravelblowdryer_3.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/a/babybuttercuptravelblowdryer_1.jpg",
       "heading": "Baby Buttercup Travel Blow-Dryer",
@@ -1298,7 +1298,7 @@
       "sprice": "139.00"
     },
     {
-      "id": 12,
+      "id": "hair-tool12",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/f/u/fullpintmediumroundceramicbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/f/u/fullpintmediumroundceramicbrush_1.jpg",
       "heading": "Full Pint Medium Round Ceramic Brush",
@@ -1306,7 +1306,7 @@
       "sprice": "40.00"
     },
     {
-      "id": 13,
+      "id": "hair-tool13",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thewrappartycurlingstylingwand_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thewrappartycurlingstylingwand_2.jpg",
       "heading": "The Wrap Party Curling & Styling Wand",
@@ -1314,7 +1314,7 @@
       "sprice": "169.00"
     },
     {
-      "id": 14,
+      "id": "hair-tool14",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/e/texasteaseteasingbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/e/texasteaseteasingbrush_1.jpg",
       "heading": "Texas Tease Teasing Brush",
@@ -1322,7 +1322,7 @@
       "sprice": "18.00"
     },
     {
-      "id": 15,
+      "id": "hair-tool15",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thelemonbarpaddlebrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thelemonbarpaddlebrush_5.jpg",
       "heading": "The Lemon Bar Paddle Brush",
@@ -1330,7 +1330,7 @@
       "sprice": "32.00"
     },
     {
-      "id": 16,
+      "id": "hair-tool16",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/themixologistinterchangeablestylingiron_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/themixologistinterchangeablestylingiron_18.jpg",
       "heading": "The Mixologist Interchangeable Styling Iron",
@@ -1338,7 +1338,7 @@
       "sprice": "199.00"
     },
     {
-      "id": 17,
+      "id": "hair-tool17",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thebabybrushcrushministraighteningbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thebabybrushcrushministraighteningbrush_9.jpg",
       "heading": "The Baby Brush Crush Mini Heated Straightening Brush",
@@ -1346,7 +1346,7 @@
       "sprice": "59.00"
     },
     {
-      "id": 18,
+      "id": "hair-tool18",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/u/bundaybestieshairties_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/u/bundaybestieshairties_1.jpg",
       "heading": "Bun-Day Besties Hair Ties",
@@ -1354,7 +1354,7 @@
       "sprice": "6.00"
     },
     {
-      "id": 19,
+      "id": "hair-tool19",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/o/doublepintlargeroundceramicbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/o/doublepintlargeroundceramicbrush_1.jpg",
       "heading": "Double Pint Large Round Ceramic Brush",
@@ -1362,7 +1362,7 @@
       "sprice": "42.00"
     },
     {
-      "id": 20,
+      "id": "hair-tool20",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thehalfshot_overhead_3500x3500.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/h/a/halfshot_blowdryer_flatlay_3600x3600-2.jpg",
       "heading": "The Half Shot Small Round Blow-Dryer Brush",
@@ -1370,7 +1370,7 @@
       "sprice": "155.00"
     },
     {
-      "id": 21,
+      "id": "hair-tool21",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thereserveultralightantifrizzblowdryer_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/r/e/reserveblowdryer_beforeafter.jpg",
       "heading": "Drybar Reserve Ultralight Anti-Frizz Blow-Dryer",
@@ -1378,7 +1378,7 @@
       "sprice": "285.00"
     },
     {
-      "id": 22,
+      "id": "hair-tool22",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/r/drybarreserveflatiron_angleback_3500x3500.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/r/e/reserve_iron_beforeafter_longhair_straight.jpg",
       "heading": "Drybar Reserve Vibrating Styling Iron",
@@ -1386,7 +1386,7 @@
       "sprice": "190.00"
     },
     {
-      "id": 23,
+      "id": "hair-tool23",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/h/a/halfpintsmallroundceramicbrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/h/a/halfpintsmallroundceramicbrush_1.jpg",
       "heading": "Half Pint Small Round Ceramic Brush",
@@ -1394,7 +1394,7 @@
       "sprice": "36.00"
     },
     {
-      "id": 24,
+      "id": "hair-tool24",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/f/l/flatmateboarbristlebrush_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/f/l/flatmateboarbristlebrush_2.jpg",
       "heading": "Flat Mate Boar Bristle Brush",
@@ -1402,7 +1402,7 @@
       "sprice": "85.00"
     },
     {
-      "id": 25,
+      "id": "hair-tool25",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/r/drymartini_box.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/r/drymartini_flatlay-1.jpg",
       "heading": "Dry Martini Microfiber Hair Wrap",
@@ -1410,7 +1410,7 @@
       "sprice": "29.00"
     },
     {
-      "id": 26,
+      "id": "hair-tool26",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/r/o/rollerclub_withclip.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/r/o/rollerclub_ba_1.jpg",
       "heading": "The Roller Club Curling Hot Rollers",
@@ -1418,7 +1418,7 @@
       "sprice": "129.00"
     },
     {
-      "id": 27,
+      "id": "hair-tool27",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/i/bighairbesties_box_rgb.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/i/bighairbesties_contents_rgb_1.jpg",
       "heading": "Big Hair Besties Rollers & Clips Set",
@@ -1426,7 +1426,7 @@
       "sprice": "34.00"
     },
     {
-      "id": 28,
+      "id": "hair-tool28",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/c/u/curlparty_overhead.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/c/u/curlparty_ba2.jpg",
       "heading": "The Curl Party Heated Curling Round Brush",
@@ -1434,7 +1434,7 @@
       "sprice": "149.00"
     },
     {
-      "id": 29,
+      "id": "hair-tool29",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/t/straightshot_flatlays-4.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thestraightshot_overhead_3500x3500.jpg",
       "heading": "The Straight Shot Blow-Drying Flat Iron",
@@ -1442,7 +1442,7 @@
       "sprice": "179.00"
     },
     {
-      "id": 30,
+      "id": "hair-tool30",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/i/tinytamers_box_3600x3600.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/i/tinytamers_3qangle_3600x3600.jpg",
       "heading": "Tiny Tamers Creaseless Hair Clips",
@@ -1450,7 +1450,7 @@
       "sprice": "19.00"
     },
     {
-      "id": 31,
+      "id": "hair-tool31",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/h/e/hero_reserve3-in-1_attachments_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/r/e/reserve3-in-1_flatlay-1.jpg",
       "heading": "Drybar Reserve 3-in-1 Interchangeable Blow-Dryer",
@@ -1458,7 +1458,7 @@
       "sprice": "349.00"
     },
     {
-      "id": 32,
+      "id": "hair-tool32",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/theslider_na_box_rgb_large.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/theslider_overhead_rgb_large.jpg",
       "heading": "The Slider Wide Tooth Comb",
@@ -1466,7 +1466,7 @@
       "sprice": "19.00"
     },
     {
-      "id": 33,
+      "id": "hair-tool33",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/the-beach-bender.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/b/e/beachbender-12.jpg",
       "heading": "The Beach Bender Triple Barrel Waver",
@@ -1474,7 +1474,7 @@
       "sprice": "139.00"
     },
     {
-      "id": 34,
+      "id": "hair-tool34",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/f/u/fullkegboarbristleroundbrush_2.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/f/u/fullkegboarbristleroundbrush_1.jpg",
       "heading": "Full Keg Boar Bristle Round Brush",
@@ -1482,7 +1482,7 @@
       "sprice": "85.00"
     },
     {
-      "id": 35,
+      "id": "hair-tool35",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/m/smoothshot_front_peopleaward.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/s/m/smoothshot_flatlay-2.jpg",
       "heading": "The Smooth Shot Paddle Brush Blow-Dryer",
@@ -1490,7 +1490,7 @@
       "sprice": "155.00"
     },
     {
-      "id": 36,
+      "id": "hair-tool36",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/u/dualplate_flatlay-8.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/u/dualplate_ba_straight.jpg",
       "heading": "Drybar Reserve Dual-Plate Styling Iron",
@@ -1498,7 +1498,7 @@
       "sprice": "190.00"
     },
     {
-      "id": 37,
+      "id": "hair-tool37",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thetresspressstraighteningiron1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thetresspressstraighteningiron1_5.jpg",
       "heading": "The Tress Press Straightening Iron",
@@ -1506,7 +1506,7 @@
       "sprice": "169.00"
     },
     {
-      "id": 38,
+      "id": "hair-tool38",
       "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/the3daybenderrotatingcurlingiron1_1.jpg",
       "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/the3daybenderrotatingcurlingiron_3.jpg",
       "heading": "The 3-Day Bender Rotating Curling Iron",
@@ -1514,38 +1514,5 @@
       "sprice": "149.00"
     }
   ],
-  "cart": [
-    {
-      "id": 1,
-      "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thedoubleshotovalblowdryerbrush_1.jpg",
-      "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thedoubleshotovalblowdryerbrush_5_3600x3600.jpg",
-      "heading": "The Double Shot Oval Blow-Dryer Brush",
-      "price": "108.50",
-      "sprice": "155.00"
-    },
-    {
-      "id": 3,
-      "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/themorningaftershowercap_1_1.jpg",
-      "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/themorningaftershowercap_2.jpg",
-      "heading": "The Morning After Shower Cap",
-      "price": "12.80",
-      "sprice": "16.00"
-    },
-    {
-      "id": 1,
-      "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thedoubleshotovalblowdryerbrush_1.jpg",
-      "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thedoubleshotovalblowdryerbrush_5_3600x3600.jpg",
-      "heading": "The Double Shot Oval Blow-Dryer Brush",
-      "price": "108.50",
-      "sprice": "155.00"
-    },
-    {
-      "id": 13,
-      "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thewrappartycurlingstylingwand_1.jpg",
-      "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/t/h/thewrappartycurlingstylingwand_2.jpg",
-      "heading": "The Wrap Party Curling & Styling Wand",
-      "price": "118.30",
-      "sprice": "169.00"
-    }
-  ]
+  "cart": []
 }
