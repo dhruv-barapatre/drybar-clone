@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Navbar } from 'react-bootstrap';
 import Footer from '../Components/Footer';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 let signup = {
@@ -12,8 +12,10 @@ let signup = {
 
 const SignUp = () => {
   const [data, setData] = useState(signup);
-  let { email, tel, password } = data;
+  const navigate=useNavigate();
+
   let oldData = [];
+  const [olddata, setolddata] = useState([])
 
   const handleChange = (e) => {
     setData({ ...data, [e.target.name]: e.target.value });
@@ -21,40 +23,47 @@ const SignUp = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    checkUser(data)
+    checkUser()
   };
 
   const getData = (d) => {
-    axios.post('http://localhost:3000/ac', { d })
+    axios.post('http://localhost:3000/accData', { d })
       .then(res => console.log(res.data))
       .catch(err => console.log(err))
   };
 
 
-  let isSameUser = false
+  let isSameEmail = false;
+  let isSameTel = false
 
 
-  const checkUser = (newData) => {
-    axios.get('http://localhost:3000/ac')
+  const checkUser = () => {
+    axios.get('http://localhost:3000/accData')
       .then(res => {
-        oldData = res.data;
+        res.data.map((el) => {
+          if (data.email == el.d.email) {
+            isSameEmail = true;
+          }
+          if (data.tel == el.d.tel) {
+            isSameTel = true;
+          }
+        })
+        if (!isSameEmail && !isSameTel) {
+          alert("Account creted Succesfuly")
+          getData(data)
+          navigate("/login")
+        }
+        else if (isSameEmail && isSameTel) {
+          alert("User Is Already Registred")
+        }
+        else if (isSameEmail) {
+          alert("Email is already Register")
+        }
+        else if (isSameTel) {
+          alert("Phone Number is already Register")
+        }
       })
       .catch(err => console.log(err));
-    oldData.forEach((el) => {
-      let enterEmail = data.email
-      let enterPhone = data.tel
-      let oldEmail = el.d.email
-      let oldPhone = el.d.tel
-      if (enterEmail === oldEmail || enterPhone === oldPhone) {
-        isSameUser = true;
-      }
-    });
-    if (isSameUser) {
-      alert('User already exists')
-    } else {
-      alert("cre")
-      // getData(newData)
-    }
   };
 
   return (
