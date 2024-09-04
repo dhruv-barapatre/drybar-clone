@@ -7,6 +7,7 @@ import Gift from '../PagesForHome/Gift'
 import Newpage from '../PagesForHome/Newpage'
 import HowTo from '../PagesForHome/HowTo'
 import Login from '../Pages/Login'
+import SignUp from '../Pages/SignUp'
 
 const Allroutes = () => {
   return (
@@ -19,6 +20,7 @@ const Allroutes = () => {
         <Route path='/new' element={ <Newpage   />}></Route>
         <Route path='/how-to' element={ <HowTo />}></Route>
         <Route path='/login' element={<Login />}></Route>
+        <Route path='/sign-up' element={<SignUp />}></Route>
       </Routes>
     </>
   )

@@ -1020,11 +1020,11 @@ svg{
     color: black;
     margin-top: -8px;
 }
-.login .border{
+.border{
     width: fit-content;
     padding: 40px;
 }
-.login .border input{
+.border input{
     display: block;
     margin: auto;
     width: 400px;
@@ -1032,13 +1032,13 @@ svg{
     padding-left: 10px;
     outline: none;
 }
-.login .border .btn{
+.border .btn{
     background-color: #42413D;
     color: white;
     border-radius: 0;
     transition: 0.3s ease-in-out;
 }
-.login .border .btn:hover{
+.border .btn:hover{
     background-color: white;
     color: #42413D;
     border: 1px solid #42413D;

@@ -14,8 +14,8 @@ const Login = () => {
           <input type="email" placeholder='Enter Your Email' />
           <input className='mt-4' type="password" placeholder='Enter Your Password' />
           <input className='mt-4 btn' type="button" value="Sign In" />
-          <Link><p className='mt-2'>Forgot Password ?</p></Link>
-          <Link><p className='mt-2'>Don't Have Account ?</p></Link>
+          <Link ><p className='mt-2'>Forgot Password ?</p></Link>
+          <Link to={"/sign-up1"}><p className='mt-2'>Don't Have Account ?</p></Link>
         </div>
       </div>
       <Footer />
