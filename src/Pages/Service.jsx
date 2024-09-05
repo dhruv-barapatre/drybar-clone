@@ -15,8 +15,7 @@ import Footer from '../Components/Footer'
 const Home = () => {
   return (
     <>
-      
-      <div className="first-line d-flex justify-content-center gap-3 align-items-center">
+      {/* <div className="first-line d-flex justify-content-center gap-3 align-items-center">
         <div className="one">
           <FaTruck />
           <span>Free Shipping on all Purchases</span>
@@ -158,7 +157,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer /> */}
     </>
   )
 }

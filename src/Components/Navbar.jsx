@@ -58,7 +58,7 @@ const Navbar = () => {
             <img className='img-2' src="https://www.drybar.com/static/version1724185896/frontend/MagebitHoT/drybar/en_US/Magento_Theme/svg/logo-hairdryer.svg" alt="" />
           </Link>
         </div>
-        <ul className='col-12'>
+        <ul className='col-12 justify-content-start'>
           <li><Link to={"/"} className="black-link">Home</Link></li>
           <li><Link to={"/hair-products"} className='black-link hair-hover'>Hair Products</Link></li>
           <li><Link to={"/hair-tool"} className='black-link'>Hair Tools</Link></li>
@@ -67,7 +67,7 @@ const Navbar = () => {
           <li><Link to={"/how-to"} className='black-link'>How To & Inspo</Link></li>
         </ul>
 
-        <div className="col-12 d-flex gap-2 justify-content-evenly nav-btns">
+        <div className="col-12 d-flex justify-content-evenly nav-btns">
           <Link to={"/login"}><CiUser /></Link>
           <button className="btn p-0" type="button" data-bs-toggle="offcanvas" onClick={GetData} data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><CiShoppingCart /></button>
         </div>
