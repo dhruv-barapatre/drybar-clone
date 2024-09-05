@@ -9,10 +9,10 @@ import { GrFormNext, GrFormPrevious } from 'react-icons/gr';
 const HairProducts = () => {
     const [server, setServer] = useState([]);
     const [data, setData] = useState([]);
-    const [page,setpage]=useState(2)
-
+    const [page, setpage] = useState(1)
+    let limit = 6;
     const fetchData = () => {
-        fetch(`http://localhost:3000/hair-products?_limit=6&_page=${page}`)
+        fetch(`http://localhost:3000/hair-products?_limit=${limit}&_page=${page}`)
             .then(res => res.json())
             .then(data => {
                 setServer(data);
@@ -23,7 +23,7 @@ const HairProducts = () => {
 
     useEffect(() => {
         fetchData();
-    }, []);
+    }, [page]);
 
     const handleFilter = (e) => {
         const value = e.target.value;
@@ -149,9 +149,9 @@ const HairProducts = () => {
                             })}
                         </div>
                     </div>
-                    <div className="pagination d-flex justify-content-center gap-5">
-                        <button><GrFormPrevious /></button>
-                        <button><GrFormNext /></button>
+                    <div className="pagination d-flex justify-content-center gap-5 m-5">
+                        <button onClick={() => setpage(page - 1)} disabled={page == 1}><GrFormPrevious /></button>
+                        <button onClick={() => setpage(page + 1)} disabled={page == 8}><GrFormNext /></button>
                     </div>
                 </div>
                 <Footer />

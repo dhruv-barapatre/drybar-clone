@@ -1,13 +1,17 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import "../App.css"
+import Footer from '../Components/Footer'
+import { GrFormNext, GrFormPrevious } from 'react-icons/gr'
 
 
 const Gift = () => {
     const [data, setdata] = useState([])
     const [server, setserver] = useState([])
+    const [page, setpage] = useState(1)
+    let limit = 6;
     const fetchdata = () => {
-        fetch('http://localhost:3000/gift')
+        fetch(`http://localhost:3000/gift?_limit=${limit}&_page=${page}`)
             .then(res => res.json())
             .then(data => {
                 setdata(data)
@@ -20,7 +24,7 @@ const Gift = () => {
     useEffect(() => {
         fetchdata()
 
-    }, [])
+    }, [page])
     const handlefilter = (e) => {
         const value = e.target.value;
         let filterdata;
@@ -126,7 +130,12 @@ const Gift = () => {
                         </div>
                     </div>
                 </div>
+                <div className="pagination d-flex justify-content-center gap-5 m-5">
+                    <button onClick={() => setpage(page - 1)} disabled={page == 1}><GrFormPrevious /></button>
+                    <button onClick={() => setpage(page + 1)} disabled={page == 15}><GrFormNext /></button>
+                </div>
             </div>
+            <Footer />
         </>
     )
 }
