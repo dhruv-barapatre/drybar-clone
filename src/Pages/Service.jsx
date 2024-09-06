@@ -29,12 +29,12 @@ const Home = () => {
           <span>Subscribe for Special Offers</span>
         </div>
       </div>
-       <div className="slider">
+      <div className="slider">
         <Carousel className="px-2">
           <Carousel.Item>
             <div className="d-block w-100 carousel-item-custom " style={{ backgroundImage: `url(${img1})` }} alt="First slide">
               <div className="row w-100">
-                <div className="col-6 col-12" style={{ left: "65%" }}>
+                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 slides" style={{ left: "65%" }}>
                   <h3>GET A FREE BRAID WITH YOUR BLOWOUT</h3>
                   <p>Mon-Thurs for a limited time only</p>
                   <button>Book Now</button>
@@ -45,7 +45,7 @@ const Home = () => {
           <Carousel.Item>
             <div className="d-block w-100 carousel-item-custom" style={{ backgroundImage: `url(${img2})` }} alt="Second slide">
               <div className="row w-100">
-                <div className="col-6 col-12" style={{ left: "40%" }}>
+                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 slides" style={{ left: "40%" }}>
                   <h3>GET A FREE BRAID WITH YOUR BLOWOUT</h3>
                   <p>Mon-Thurs for a limited time only</p>
                   <button>Book Now</button>
@@ -56,7 +56,7 @@ const Home = () => {
           <Carousel.Item>
             <div className="d-block w-100 carousel-item-custom" style={{ backgroundImage: `url(${img3})` }} alt="Third slide">
               <div className="row w-100">
-                <div className="col-6 col-12" style={{ left: "35%" }}>
+                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 slides" style={{ left: "35%" }}>
                   <h3>GET A FREE BRAID WITH YOUR BLOWOUT</h3>
                   <p>Mon-Thurs for a limited time only</p>
                   <button>Book Now</button>
@@ -67,7 +67,7 @@ const Home = () => {
           <Carousel.Item>
             <div className="d-block w-100 carousel-item-custom" style={{ backgroundImage: `url(${img4})` }} alt="Fourth slide">
               <div className="row w-100">
-                <div className="col-6 col-12" style={{ left: "35%" }}>
+                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 slides" style={{ left: "35%" }}>
                   <h3>GET A FREE BRAID WITH YOUR BLOWOUT</h3>
                   <p>Mon-Thurs for a limited time only</p>
                   <button>Book Now</button>
@@ -77,41 +77,43 @@ const Home = () => {
           </Carousel.Item>
         </Carousel>
       </div>
-      <div className="no-cuts row mb-5">
-        <div className="art">
-          <p>No Cuts. No Color. Just Blowouts!</p>
-        </div>
-        <div className="col-9 divs">
-          <img src="https://images.ctfassets.net/13n1l6os99jz/jI9g5BEZsgQVermc3ryjL/34ebdbdf72f8dbfe1b224739c0b7467a/Homepage_GreyBlock_BookABlowout_674x770-cropped.jpg" alt="" />
-          <h3>BOOK YOUR BLOWOUT</h3>
-          <p>Find your closest shop and snag your next appointment!</p>
-          <button>Book Now</button>
-        </div>
-        <div className="col-9 divs">
-          <img src="https://images.ctfassets.net/13n1l6os99jz/4nk5uafHhhgOifOKYZJ2qg/2d01bfbf4a397b5186a1af04d5e3b960/Homepage_GreyBlock_WTF_674x770-cropped.jpg" alt="" />
-          <h3>BOOK YOUR BLOWOUT</h3>
-          <p>Find your closest shop and snag your next appointment!</p>
-          <button>Book Now</button>
-        </div>
-        <div className="col-9 divs">
-          <img src="https://images.ctfassets.net/13n1l6os99jz/6eTmIeEzgtiH4QcqUCWHRL/a83baea81b00c8683018edfc524330fb/Homepage_GreyBlock_Barfly_674x770-cropped-new.jpg" alt="" />
-          <h3>BOOK YOUR BLOWOUT</h3>
-          <p>Find your closest shop and snag your next appointment!</p>
-          <button>Book Now</button>
+      <div className="p-3">
+        <div className="no-cuts row mb-5">
+          <div className="art">
+            <p>No Cuts. No Color. Just Blowouts!</p>
+          </div>
+          <div className="col-12 col-sm-6 col-lg-6 col-xl-6 col-xxl-6 divs">
+            <img src="https://images.ctfassets.net/13n1l6os99jz/jI9g5BEZsgQVermc3ryjL/34ebdbdf72f8dbfe1b224739c0b7467a/Homepage_GreyBlock_BookABlowout_674x770-cropped.jpg" alt="" />
+            <h3>BOOK YOUR BLOWOUT</h3>
+            <p>Find your closest shop and snag your next appointment!</p>
+            <button>Book Now</button>
+          </div>
+          <div className="col-12 col-sm-6 col-lg-6 col-xl-6 col-xxl-6 divs">
+            <img src="https://images.ctfassets.net/13n1l6os99jz/4nk5uafHhhgOifOKYZJ2qg/2d01bfbf4a397b5186a1af04d5e3b960/Homepage_GreyBlock_WTF_674x770-cropped.jpg" alt="" />
+            <h3>BOOK YOUR BLOWOUT</h3>
+            <p>Find your closest shop and snag your next appointment!</p>
+            <button>Book Now</button>
+          </div>
+          <div className="col-12 col-sm-6 col-lg-6 col-xl-6 col-xxl-6 divs">
+            <img src="https://images.ctfassets.net/13n1l6os99jz/6eTmIeEzgtiH4QcqUCWHRL/a83baea81b00c8683018edfc524330fb/Homepage_GreyBlock_Barfly_674x770-cropped-new.jpg" alt="" />
+            <h3>BOOK YOUR BLOWOUT</h3>
+            <p>Find your closest shop and snag your next appointment!</p>
+            <button>Book Now</button>
+          </div>
         </div>
       </div>
-      {/*<div className="bordar">
+      <div className="bordar">
         <img src="https://www.drybarshops.com/assets/images/ic-heart.png" alt="" />
       </div>
       <div className="slider-mix p-5">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-4">
+          <div className="row d-flex flew-wrap gy-5 align-items-center">
+            <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 col- text">
               <h1>THE STYLES</h1>
               <p>See all of our blowout styles!</p>
               <button>Browse All Styles</button>
             </div>
-            <div className="col-8">
+            <div className="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8 photo-slide">
               <Carousel>
                 <Carousel.Item>
                   <div className="d-flex flex-wrap justify-content-center py-2">
@@ -144,20 +146,20 @@ const Home = () => {
       </div>
       <div className="pemplate">
         <div className="container-fluid p-0">
-          <div className="row m-auto p-5">
-            <div className="col-4 first">
+          <div className="row m-auto p-5 d-flex flex-wrap justify-content-evenly gy-3">
+            <div className="col-10 col-sm-10 col-md-10 col-lg-6 col-xl-4 col-xxl-4 imgs first">
               <Link><img src="https://images.ctfassets.net/13n1l6os99jz/4xpKSENLx1aebUOPtuKexK/c54324a98ed306ce30d939f54fb25440/Homepage_Trifold_Franchising_Desktop.jpg?fm=webp" alt="" /></Link>
             </div>
-            <div className="col-4 second">
+            <div className="col-10 col-sm-10 col-md-10 col-lg-6 col-xl-4 col-xxl-4 imgs second">
               <Link><img src="https://images.ctfassets.net/13n1l6os99jz/4GQW3aCvZKqpBdJphKrC0J/3d9d23500fe034a9d0a80d503390cb59/Homepage_Trifold_Locations_Desktop.jpg?fm=webp" alt="" /></Link>
             </div>
-            <div className="col-4 third">
+            <div className="col-10 col-sm-10 col-md-10 col-lg-6 col-xl-4 col-xxl-4 imgs third">
               <Link><img src="https://images.ctfassets.net/13n1l6os99jz/2qu5IZJObeWDnH4LtDU8G0/9f93286b3a5ad77d93c4f26b5ab78e59/Homepage_Trifold_NewBars_Desktop.jpg?fm=webp" alt="" /></Link>
             </div>
           </div>
         </div>
-      </div> */}
-      {/* <Footer /> */}
+      </div> 
+      <Footer />
     </>
   )
 }

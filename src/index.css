@@ -162,7 +162,7 @@ ul li {
     position: relative;
 }
 
-.slider .col-6 {
+.slider .slides {
     position: absolute;
     transform: translate(-50%, -50%);
     /* left: 60%; */
@@ -170,17 +170,17 @@ ul li {
     overflow: auto;
 }
 
-.slider .col-6 h3 {
+.slider .slides h3 {
     font-size: 55px;
     font-weight: 700;
 }
 
-.slider .col-6 p {
+.slider .slides p {
     font-size: 27px;
     font-weight: 400;
 }
 
-.slider .col-6 button {
+.slider .slides button {
     background-color: #42413D;
     color: white;
     outline: none;
@@ -224,28 +224,29 @@ ul li {
     line-height: 35px;
     font-size: 18.8px;
     font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
 }
 
-.no-cuts .col-3 {
+.no-cuts .divs {
     padding: 0;
-    width: 30%;
-
     text-align: center;
     height: fit-content;
     transition: 0.5s ease;
 }
 
-.no-cuts .col-3:hover {
+.no-cuts .divs:hover {
 
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.no-cuts .col-3 h3 {
+.no-cuts .col-3  h3 {
     font-size: 22px;
     margin: 25px 0;
 }
 
-.no-cuts .col-3 p {
+.no-cuts .col-3  p {
     font-size: 15px;
     margin: 20px 0;
 }
@@ -298,10 +299,16 @@ ul li {
     gap: 10px;
 }
 
-.slider-mix .col-8 img {
+.slider-mix .photo-slide img {
     width: calc(50% - 15px);
     height: 50%;
 }
+/* @media(max-width:768px){
+    .slider-mix .photo-slide img {
+        width: calc(25% - 7.5px);
+        height: 25%;
+    }   
+} */
 
 /* template////======> */
 .pemplate {
@@ -313,11 +320,11 @@ ul li {
     width: 100%;
 }
 
-.pemplate .col-4 {
+.pemplate .imgs {
     padding: 0;
 }
 
-.pemplate .col-4 img {
+.pemplate .imgs img {
     width: 100%;
 }
 
@@ -339,24 +346,24 @@ ul li {
     background-color: #D1D1D1;
 }
 
-.support .col-2 .links {
+.support .texts .links {
     display: flex;
     flex-direction: column;
 }
 
-.support .col-2 .links a {
+.support .texts .links a {
     text-decoration: none;
     color: #42413D;
     padding: 10px 0px;
 }
 
-.support .col-3 h5 {
+.support .texts h5 {
     background-color: #ffdd30;
     height: 16px;
     width: 80%;
 }
 
-.support .col-3 input {
+.support .texts input {
     border-top: none;
     border-left: none;
     border-right: none;
@@ -365,7 +372,7 @@ ul li {
     margin-right: 10px;
 }
 
-.support .col-3 button {
+.support .texts button {
     border: none;
     background-color: #3A3C3E;
     color: white;
@@ -378,7 +385,7 @@ ul li {
     margin: 40px 0;
 }
 
-.footer .col-4 img {
+.footer img {
     height: 50px;
 }
 
@@ -387,7 +394,7 @@ ul li {
     padding: 0;
 }
 
-.footer .col-4 {
+.footer .foot {
     display: flex;
     align-items: center;
     gap: 10px;

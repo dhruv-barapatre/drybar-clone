@@ -1514,16 +1514,7 @@
       "sprice": "149.00"
     }
   ],
-  "cart": [
-    {
-      "id": "hair-products1",
-      "img": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxdryshampoooriginaljumbosize_1.jpg",
-      "himg": "https://www.drybar.com/media/catalog/product/cache/8faa15ae7221fdff55de97fd4a6cd1a1/d/e/detoxdryshampoooriginaljumbosize_2.jpg",
-      "price": "33.60",
-      "sprice": "42.00",
-      "heading": "Detox Dry Shampoo Original Scent Jumbo Size"
-    }
-  ],
+  "cart": [],
   "accData": [
     {
       "d": {
