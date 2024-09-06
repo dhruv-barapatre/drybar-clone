@@ -15,7 +15,7 @@ import Footer from '../Components/Footer'
 const Home = () => {
   return (
     <>
-      {/* <div className="first-line d-flex justify-content-center gap-3 align-items-center">
+      <div className="first-line d-flex justify-content-center gap-3 align-items-center">
         <div className="one">
           <FaTruck />
           <span>Free Shipping on all Purchases</span>
@@ -29,12 +29,12 @@ const Home = () => {
           <span>Subscribe for Special Offers</span>
         </div>
       </div>
-      <div className="slider">
+       <div className="slider">
         <Carousel className="px-2">
           <Carousel.Item>
             <div className="d-block w-100 carousel-item-custom " style={{ backgroundImage: `url(${img1})` }} alt="First slide">
               <div className="row w-100">
-                <div className="col-6" style={{ left: "65%" }}>
+                <div className="col-6 col-12" style={{ left: "65%" }}>
                   <h3>GET A FREE BRAID WITH YOUR BLOWOUT</h3>
                   <p>Mon-Thurs for a limited time only</p>
                   <button>Book Now</button>
@@ -45,7 +45,7 @@ const Home = () => {
           <Carousel.Item>
             <div className="d-block w-100 carousel-item-custom" style={{ backgroundImage: `url(${img2})` }} alt="Second slide">
               <div className="row w-100">
-                <div className="col-6" style={{ left: "40%" }}>
+                <div className="col-6 col-12" style={{ left: "40%" }}>
                   <h3>GET A FREE BRAID WITH YOUR BLOWOUT</h3>
                   <p>Mon-Thurs for a limited time only</p>
                   <button>Book Now</button>
@@ -56,7 +56,7 @@ const Home = () => {
           <Carousel.Item>
             <div className="d-block w-100 carousel-item-custom" style={{ backgroundImage: `url(${img3})` }} alt="Third slide">
               <div className="row w-100">
-                <div className="col-6" style={{ left: "35%" }}>
+                <div className="col-6 col-12" style={{ left: "35%" }}>
                   <h3>GET A FREE BRAID WITH YOUR BLOWOUT</h3>
                   <p>Mon-Thurs for a limited time only</p>
                   <button>Book Now</button>
@@ -67,7 +67,7 @@ const Home = () => {
           <Carousel.Item>
             <div className="d-block w-100 carousel-item-custom" style={{ backgroundImage: `url(${img4})` }} alt="Fourth slide">
               <div className="row w-100">
-                <div className="col-6" style={{ left: "35%" }}>
+                <div className="col-6 col-12" style={{ left: "35%" }}>
                   <h3>GET A FREE BRAID WITH YOUR BLOWOUT</h3>
                   <p>Mon-Thurs for a limited time only</p>
                   <button>Book Now</button>
@@ -81,26 +81,26 @@ const Home = () => {
         <div className="art">
           <p>No Cuts. No Color. Just Blowouts!</p>
         </div>
-        <div className="col-3">
+        <div className="col-9 divs">
           <img src="https://images.ctfassets.net/13n1l6os99jz/jI9g5BEZsgQVermc3ryjL/34ebdbdf72f8dbfe1b224739c0b7467a/Homepage_GreyBlock_BookABlowout_674x770-cropped.jpg" alt="" />
           <h3>BOOK YOUR BLOWOUT</h3>
           <p>Find your closest shop and snag your next appointment!</p>
           <button>Book Now</button>
         </div>
-        <div className="col-3">
+        <div className="col-9 divs">
           <img src="https://images.ctfassets.net/13n1l6os99jz/4nk5uafHhhgOifOKYZJ2qg/2d01bfbf4a397b5186a1af04d5e3b960/Homepage_GreyBlock_WTF_674x770-cropped.jpg" alt="" />
           <h3>BOOK YOUR BLOWOUT</h3>
           <p>Find your closest shop and snag your next appointment!</p>
           <button>Book Now</button>
         </div>
-        <div className="col-3">
+        <div className="col-9 divs">
           <img src="https://images.ctfassets.net/13n1l6os99jz/6eTmIeEzgtiH4QcqUCWHRL/a83baea81b00c8683018edfc524330fb/Homepage_GreyBlock_Barfly_674x770-cropped-new.jpg" alt="" />
           <h3>BOOK YOUR BLOWOUT</h3>
           <p>Find your closest shop and snag your next appointment!</p>
           <button>Book Now</button>
         </div>
       </div>
-      <div className="bordar">
+      {/*<div className="bordar">
         <img src="https://www.drybarshops.com/assets/images/ic-heart.png" alt="" />
       </div>
       <div className="slider-mix p-5">
@@ -156,8 +156,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
-      <Footer /> */}
+      </div> */}
+      {/* <Footer /> */}
     </>
   )
 }

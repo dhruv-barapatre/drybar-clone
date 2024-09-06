@@ -51,23 +51,23 @@ const Navbar = () => {
   return (
 
     <>
-      <div className="navber row d-b d-flex justify-content-evenly align-items-center px-3">
-        <div className="logo col-6">
+      <div className="navber row d-b d-flex justify-content-center align-items-center ">
+        <div className="logo col-6 col-sm-6 col-md-12 col-lg-3 col-xl-3 col-xxl-2 d-flex justify-content-center">
           <Link to={"/"}>
             <img className='img-1' src="https://www.drybar.com/media/logo/websites/73/drybar_logo_1.svg" alt="" />
             <img className='img-2' src="https://www.drybar.com/static/version1724185896/frontend/MagebitHoT/drybar/en_US/Magento_Theme/svg/logo-hairdryer.svg" alt="" />
           </Link>
         </div>
-        <ul className='col-12 justify-content-start'>
+        <ul className='col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-9'>
           <li><Link to={"/"} className="black-link">Home</Link></li>
           <li><Link to={"/hair-products"} className='black-link hair-hover'>Hair Products</Link></li>
           <li><Link to={"/hair-tool"} className='black-link'>Hair Tools</Link></li>
           <li><Link to={"/gift-sets"} className='black-link'>Gifts & Sets</Link></li>
-          <li><Link to={"/new"} className='black-link' style={{ color: 'black' }}>New</Link></li>
+          <li><Link to={"/new"} className='black-link'>New</Link></li>
           <li><Link to={"/how-to"} className='black-link'>How To & Inspo</Link></li>
         </ul>
 
-        <div className="col-12 d-flex justify-content-evenly nav-btns">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-1 col-xxl-1 d-flex justify-content-evenly align-items-center nav-btns p-0">
           <Link to={"/login"}><CiUser /></Link>
           <button className="btn p-0" type="button" data-bs-toggle="offcanvas" onClick={GetData} data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><CiShoppingCart /></button>
         </div>

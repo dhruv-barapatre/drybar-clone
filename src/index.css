@@ -3,10 +3,12 @@
 
 
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
+
 .row {
     width: 100%;
     /* color: black; */
@@ -73,6 +75,7 @@ p {
     text-decoration: none;
     padding: 10px 30px;
     transition: 0.5s;
+    font-size: 18px;
 }
 
 .black-link:hover {
@@ -81,8 +84,8 @@ p {
 
 ul {
     display: flex;
-    justify-content: center;
-    /* p    adding: 0; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 ul li {
@@ -186,7 +189,7 @@ ul li {
     font-size: 14px;
 }
 
-.no-cuts .col-3 img {
+.no-cuts  .divs img {
     width: 100%;
 }
 
@@ -194,21 +197,22 @@ ul li {
     border: 1px solid #CCCCCC;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
-    width: fit-content;
+    justify-content: space-evenly;
+    width: 100%;
     padding: 50px;
     margin: 0;
-    margin: 0px 30px;
+    /* margin: 0px 30px; */
     font-weight: 700;
     color: #42413D;
     margin-top: 90px;
     position: relative;
 }
 
+
 .no-cuts .art {
     background-image: url('https://www.drybarshops.com/assets/images/heading_center_bg.png');
     height: 35px;
-    width: 1161px;
+    width: 50%;
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -974,22 +978,28 @@ select option {
     width: 300px;
     height: 300px;
 }
-svg{
+
+svg {
     font-size: 20px;
 }
-.nav-btns button svg{
+
+.nav-btns button svg {
     font-size: 25px;
     margin-top: -5px;
 }
-.offcanvas-body img{
+
+.offcanvas-body img {
     height: 100px;
-}.del-btn{
+}
+
+.del-btn {
     border: 1px solid black;
-    background-color:white;
+    background-color: white;
     padding: 5px;
     border-radius: 4px;
 }
-.pagination button{
+
+.pagination button {
     border: none;
     padding: 10px 20px;
     background-color: #42413D;
@@ -997,34 +1007,42 @@ svg{
     border: 1px solid #42413D;
     transform: 10s ease-in-out;
 }
-.offcanvas{
+
+.offcanvas {
     overflow-y: scroll;
 }
-.pagination button:hover{
+
+.pagination button:hover {
     background-color: white;
     color: #42413D;
 }
-.offcanvas-body{
+
+.offcanvas-body {
     overflow: visible;
 }
-.offcanvas-body .pros{
+
+.offcanvas-body .pros {
     padding: 10px;
     margin: 10px;
 }
-.offcanvas-body .lane{
+
+.offcanvas-body .lane {
     height: 1px;
     width: 100%;
     background-color: black;
 }
-.navber a svg{
+
+.navber a svg {
     color: black;
     margin-top: -8px;
 }
-.border{
+
+.border {
     width: fit-content;
     padding: 40px;
 }
-.border input{
+
+.border input {
     display: block;
     margin: auto;
     width: 400px;
@@ -1032,14 +1050,20 @@ svg{
     padding-left: 10px;
     outline: none;
 }
-.border .btn{
+
+.border .btn {
     background-color: #42413D;
     color: white;
     border-radius: 0;
     transition: 0.3s ease-in-out;
 }
-.border .btn:hover{
+
+.border .btn:hover {
     background-color: white;
     color: #42413D;
     border: 1px solid #42413D;
+}
+
+.row {
+    width: 100%;
 }
