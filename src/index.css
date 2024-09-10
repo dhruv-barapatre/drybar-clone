@@ -189,7 +189,7 @@ ul li {
     font-size: 14px;
 }
 
-.no-cuts  .divs img {
+.no-cuts .divs img {
     width: 100%;
 }
 
@@ -241,12 +241,12 @@ ul li {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.no-cuts .col-3  h3 {
+.no-cuts .col-3 h3 {
     font-size: 22px;
     margin: 25px 0;
 }
 
-.no-cuts .col-3  p {
+.no-cuts .col-3 p {
     font-size: 15px;
     margin: 20px 0;
 }
@@ -303,6 +303,7 @@ ul li {
     width: calc(50% - 15px);
     height: 50%;
 }
+
 /* @media(max-width:768px){
     .slider-mix .photo-slide img {
         width: calc(25% - 7.5px);
@@ -570,7 +571,7 @@ ul li {
 
 .navs ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .navs .col-10 img {
@@ -819,7 +820,11 @@ select option {
     font-size: 16px;
 }
 
-.new-twist .col-6 {
+.col-6 {
+    padding: 0;
+}
+
+.new-twist .coles {
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -827,28 +832,29 @@ select option {
     align-items: center;
 }
 
-.new-twist .col-6 img {
+.new-twist .coles img {
     width: 100%;
 }
 
-.new-twist .text {
+
+.new-twist .coles {
     background-color: #D4E8FF;
 }
 
-.new-twist .col-6 h1 {
+.new-twist .coles h1 {
     font-size: 53px;
     color: #6D8CC0;
 }
 
-.new-twist .col-6 p {
+.new-twist .coles p {
     font-weight: 300;
 }
 
-.new-twist .col-6 p span {
+.new-twist .coles p span {
     font-weight: 700;
 }
 
-.new-twist .col-6 button {
+.new-twist .coles button {
     border: none;
     color: white;
     background-color: #54575A;
@@ -859,7 +865,7 @@ select option {
     transition: 0.5s ease-in-out;
 }
 
-.new-twist .col-6 button:hover {
+.new-twist .coles button:hover {
     border: 1px solid #54575A;
     background-color: white;
     color: #54575A;
@@ -882,11 +888,11 @@ select option {
     width: 31%;
 }
 
-.new-video .row .col-4 .img {
+.new-video .row .coles .img {
     height: 240px;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 430px;
+    width: 100%;
 }
 
 .icon {
@@ -903,7 +909,7 @@ select option {
     border-left: 20px solid white;
 }
 
-.dry-bigger .row .col-6 img {
+.dry-bigger .row .col-12 img {
     width: 100%;
 }
 
@@ -916,7 +922,7 @@ select option {
     padding: 0;
 }
 
-.how-to .col-6 img {
+.how-to .col-12 img {
     width: 100%;
 }
 
@@ -960,11 +966,11 @@ select option {
     width: 100%;
 }
 
-.flat-iron .col-7 img {
+.flat-iron .clss img {
     width: 100%;
 }
 
-.flat-iron .col-5 {
+.flat-iron .cls {
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -64,7 +64,7 @@ const Hairtool = () => {
     return (
         <>
             <div className="navs tool row mt-5">
-                <div className="col-2">
+                <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 col-xxl-2">
                     <span className='px-3 '>Hair  / Hair Tool</span>
                     <h4>Hair Products</h4>
                     <ul>
@@ -78,7 +78,7 @@ const Hairtool = () => {
                         <Link><li>Color Care</li></Link>
                     </ul>
                 </div>
-                <div className="col-10">
+                <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 col-xxl-10">
                     <div className="d-flex align-items-center justify-content-between">
                         <h2 className='d-inline' data-element="title">Our Hair Tool</h2>
                         <select onChange={(e) => handlefilter(e)} style={{ fontWeight: "700" }} id="sorter" data-role="sorter" className="sorter-options video-sorter-options" aria-label="Sort By">
@@ -92,7 +92,7 @@ const Hairtool = () => {
                         </select>
                     </div>
                     <div className="fetchdata">
-                        <div className="row">
+                        <div className="row d-flex flex-wrap justify-content-center">
                             {server.map((el) => {
                                 const discountPercentage = Math.round(((el.sprice - el.price) / el.sprice) * 100);
                                 return (

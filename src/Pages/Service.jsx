@@ -82,19 +82,19 @@ const Home = () => {
           <div className="art">
             <p>No Cuts. No Color. Just Blowouts!</p>
           </div>
-          <div className="col-12 col-sm-6 col-lg-6 col-xl-6 col-xxl-6 divs">
+          <div className="col-12 col-sm-6 col-lg-6 col-xl-4 col-xxl-4 divs">
             <img src="https://images.ctfassets.net/13n1l6os99jz/jI9g5BEZsgQVermc3ryjL/34ebdbdf72f8dbfe1b224739c0b7467a/Homepage_GreyBlock_BookABlowout_674x770-cropped.jpg" alt="" />
             <h3>BOOK YOUR BLOWOUT</h3>
             <p>Find your closest shop and snag your next appointment!</p>
             <button>Book Now</button>
           </div>
-          <div className="col-12 col-sm-6 col-lg-6 col-xl-6 col-xxl-6 divs">
+          <div className="col-12 col-sm-6 col-lg-6 col-xl-4 col-xxl-4 divs">
             <img src="https://images.ctfassets.net/13n1l6os99jz/4nk5uafHhhgOifOKYZJ2qg/2d01bfbf4a397b5186a1af04d5e3b960/Homepage_GreyBlock_WTF_674x770-cropped.jpg" alt="" />
             <h3>BOOK YOUR BLOWOUT</h3>
             <p>Find your closest shop and snag your next appointment!</p>
             <button>Book Now</button>
           </div>
-          <div className="col-12 col-sm-6 col-lg-6 col-xl-6 col-xxl-6 divs">
+          <div className="col-12 col-sm-6 col-lg-6 col-xl-4 col-xxl-4 divs">
             <img src="https://images.ctfassets.net/13n1l6os99jz/6eTmIeEzgtiH4QcqUCWHRL/a83baea81b00c8683018edfc524330fb/Homepage_GreyBlock_Barfly_674x770-cropped-new.jpg" alt="" />
             <h3>BOOK YOUR BLOWOUT</h3>
             <p>Find your closest shop and snag your next appointment!</p>

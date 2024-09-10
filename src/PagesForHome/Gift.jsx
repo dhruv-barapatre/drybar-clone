@@ -71,7 +71,7 @@ const Gift = () => {
         <>
             <div className="navs gift">
                 <div className="row">
-                    <div className="col-2">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 col-xxl-2">
                         <span className='px-3'>Hair  / Gift & Sets</span>
                         <h4>Hair Products</h4>
                         <ul>
@@ -85,7 +85,7 @@ const Gift = () => {
                             <Link><li>Color Care</li></Link>
                         </ul>
                     </div>
-                    <div className="col-10">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 col-xxl-10">
                         <h4 className='text-center'>SHOP KITS AND SETS</h4>
                         <div className="d-flex align-items-center justify-content-between">
                             <h2 className='d-inline' data-element="title">Our Hair Products</h2>
@@ -100,7 +100,7 @@ const Gift = () => {
                             </select>
                         </div>
                         <div className="fetchdata my-5">
-                            <div className="row">
+                            <div className="row d-flex flex-wrap justify-content-center">
                                 {server.map((el) => {
                                     const discountPercentage = Math.round(((el.sprice - el.price) / el.sprice) * 100);
                                     return (

@@ -94,8 +94,8 @@ const HairProducts = () => {
                 </div>
             </div>
             <span className='px-3'>Hair / Hair products</span>
-            <div className="navs row px-3">
-                <div className="col-2">
+            <div className="navs row">
+                <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 col-xxl-2">
                     <h4>Hair Products</h4>
                     <ul>
                         <li className='m-0 p-0'>Categories</li>
@@ -108,8 +108,8 @@ const HairProducts = () => {
                         <Link><li>Color Care</li></Link>
                     </ul>
                 </div>
-                <div className="col-10">
-                    <img src="https://www.drybar.com/media/wysiwyg/header_banner/LGSerum_2024_SlimHeaderBanner1_D1300x200_1.jpg" alt="" />
+                <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 col-xxl-10">
+                    <img style={{width:"100%"}} src="https://www.drybar.com/media/wysiwyg/header_banner/LGSerum_2024_SlimHeaderBanner1_D1300x200_1.jpg" alt="" />
                     <div className="d-flex align-items-center justify-content-between">
                         <h2 className='d-inline' data-element="title">Our Hair Products</h2>
                         <select onChange={handleFilter} style={{ fontWeight: "700" }} id="sorter" data-role="sorter" className="sorter-options video-sorter-options" aria-label="Sort By">
@@ -123,7 +123,7 @@ const HairProducts = () => {
                         </select>
                     </div>
                     <div className="fetchdata">
-                        <div className="row">
+                        <div className="row justify-content-evenly">
                             {server.map((el) => {
                                 const discountPercentage = Math.round(((el.sprice - el.price) / el.sprice) * 100);
                                 return (

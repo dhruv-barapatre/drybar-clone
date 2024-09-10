@@ -41,6 +41,10 @@ const Navbar = () => {
     }
     setsum(Sumdata)
   }
+
+  const doubleItem = () => {
+    
+  }
   useEffect(() => {
     GetData()
   }, [])
@@ -58,7 +62,7 @@ const Navbar = () => {
             <img className='img-2' src="https://www.drybar.com/static/version1724185896/frontend/MagebitHoT/drybar/en_US/Magento_Theme/svg/logo-hairdryer.svg" alt="" />
           </Link>
         </div>
-        <ul className='col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-9'>
+        <ul className='col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-9 d-flex flex-wrap'>
           <li><Link to={"/"} className="black-link">Home</Link></li>
           <li><Link to={"/hair-products"} className='black-link hair-hover'>Hair Products</Link></li>
           <li><Link to={"/hair-tool"} className='black-link'>Hair Tools</Link></li>
@@ -104,4 +108,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
