@@ -3,12 +3,14 @@ import { Link } from 'react-router-dom'
 import "../App.css"
 import Footer from '../Components/Footer'
 import { GrFormNext, GrFormPrevious } from 'react-icons/gr'
+import Loading from './Loading'
 
 
 const Gift = () => {
     const [data, setdata] = useState([])
     const [server, setserver] = useState([])
     const [page, setpage] = useState(1)
+    const [isloading,setisloading]=useState(true)
     let limit = 6;
     const fetchdata = () => {
         fetch(`https://drybar-backside.onrender.com/gift?_limit=${limit}&_page=${page}`)
@@ -16,6 +18,7 @@ const Gift = () => {
             .then(data => {
                 setdata(data)
                 setserver(data)
+                setisloading(false)
             })
             .catch(err => console.log(err))
         // console.log(data)
@@ -101,7 +104,7 @@ const Gift = () => {
                         </div>
                         <div className="fetchdata my-5">
                             <div className="row d-flex flex-wrap justify-content-center">
-                                {server.map((el) => {
+                                {isloading?<Loading />: server.map((el) => {
                                     const discountPercentage = Math.round(((el.sprice - el.price) / el.sprice) * 100);
                                     return (
                                         <div key={el.id} className='col-4 '>

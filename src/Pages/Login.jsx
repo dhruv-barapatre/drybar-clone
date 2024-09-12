@@ -3,6 +3,7 @@ import { Navbar } from 'react-bootstrap'
 import Footer from '../Components/Footer'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
+import Loading from '../PagesForHome/Loading'
 let login = {
   email: "",
   tel: "",
@@ -11,7 +12,7 @@ let login = {
 const Login = () => {
   const [accdata, setaccdata] = useState([])//get data from server
   const [data, setData] = useState(login);//getdata from input box 
-
+  const [loading, setisloading] = useState(true)
 
   const handleChange = (e) => {
     setData({ ...data, [e.target.name]: e.target.value });
@@ -26,7 +27,7 @@ const Login = () => {
     axios.get("https://drybar-backside.onrender.com/accData")
       .then(res => {
         setaccdata(res.data)
-        console.log(res.data)
+        setisloading(false);
       }
       )
       .catch(err => console.log(err))
@@ -65,7 +66,7 @@ const Login = () => {
     <div className='login'>
       <Navbar />
       <h1 className='text-center'>LOGIN PAGE</h1>
-      <div className="d-flex justify-content-center algin-items-center">
+      {loading ? <Loading /> : <div className="d-flex justify-content-center algin-items-center">
         <div className="border">
           <h4>Login</h4>
           <form action="" onSubmit={handlesubmit}>
@@ -75,7 +76,7 @@ const Login = () => {
           </form>
           <Link to={"/sign-up"}><p className='mt-2'>Don't Have Account ?</p></Link>
         </div>
-      </div>
+      </div>}
       <Footer />
     </div>
   )

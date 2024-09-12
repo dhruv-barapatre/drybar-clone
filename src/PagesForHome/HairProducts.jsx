@@ -5,11 +5,13 @@ import { LuCoins } from 'react-icons/lu';
 import { Link } from 'react-router-dom';
 import Footer from "../Components/Footer";
 import { GrFormNext, GrFormPrevious } from 'react-icons/gr';
+import Loading from './Loading';
 
 const HairProducts = () => {
     const [server, setServer] = useState([]);
     const [data, setData] = useState([]);
     const [page, setpage] = useState(1)
+    const [loading, setloading] = useState(true)
     let limit = 6;
     const fetchData = () => {
         fetch(`https://drybar-backside.onrender.com/hair-products?_limit=${limit}&_page=${page}`)
@@ -17,6 +19,7 @@ const HairProducts = () => {
             .then(data => {
                 setServer(data);
                 setData(data);
+                setloading(false)
             })
             .catch(err => console.log(err));
     };
@@ -109,7 +112,7 @@ const HairProducts = () => {
                     </ul>
                 </div>
                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 col-xxl-10">
-                    <img style={{width:"100%"}} src="https://www.drybar.com/media/wysiwyg/header_banner/LGSerum_2024_SlimHeaderBanner1_D1300x200_1.jpg" alt="" />
+                    <img style={{ width: "100%" }} src="https://www.drybar.com/media/wysiwyg/header_banner/LGSerum_2024_SlimHeaderBanner1_D1300x200_1.jpg" alt="" />
                     <div className="d-flex align-items-center justify-content-between">
                         <h2 className='d-inline' data-element="title">Our Hair Products</h2>
                         <select onChange={handleFilter} style={{ fontWeight: "700" }} id="sorter" data-role="sorter" className="sorter-options video-sorter-options" aria-label="Sort By">
@@ -124,7 +127,7 @@ const HairProducts = () => {
                     </div>
                     <div className="fetchdata">
                         <div className="row justify-content-evenly">
-                            {server.map((el) => {
+                            {loading ? <Loading /> : server.map((el) => {
                                 const discountPercentage = Math.round(((el.sprice - el.price) / el.sprice) * 100);
                                 return (
                                     <div key={el.id} className='col-4'>

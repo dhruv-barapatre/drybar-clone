@@ -2,11 +2,13 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Footer from '../Components/Footer'
 import { GrFormNext, GrFormPrevious } from 'react-icons/gr'
+import Loading from './Loading'
 
 const Hairtool = () => {
     const [data, setdata] = useState([])
     const [server, setserver] = useState([])
     const [page, setpage] = useState(1)
+    const [loading,setloading]=useState(true)
     let limit = 6;
     const fetchdata = () => {
         fetch(`https://drybar-backside.onrender.com/hair-tool?_limit=${limit}&_page=${page}`)
@@ -14,6 +16,7 @@ const Hairtool = () => {
             .then(data => {
                 setdata(data)
                 setserver(data)
+                setloading(false)
             })
             .catch(err => console.log(err))
     }
@@ -93,7 +96,7 @@ const Hairtool = () => {
                     </div>
                     <div className="fetchdata">
                         <div className="row d-flex flex-wrap justify-content-center">
-                            {server.map((el) => {
+                            {loading ?<Loading />:server.map((el) => {
                                 const discountPercentage = Math.round(((el.sprice - el.price) / el.sprice) * 100);
                                 return (
                                     <div key={el.id} className='col-4 '>

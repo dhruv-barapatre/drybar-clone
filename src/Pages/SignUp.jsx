@@ -3,6 +3,7 @@ import { Navbar } from 'react-bootstrap';
 import Footer from '../Components/Footer';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import Loading from '../PagesForHome/Loading';
 
 let signup = {
   email: "",
@@ -12,7 +13,8 @@ let signup = {
 
 const SignUp = () => {
   const [data, setData] = useState(signup);
-  const navigate=useNavigate();
+  const [loading, setisloading] = useState(true)
+  const navigate = useNavigate();
 
   let oldData = [];
   const [olddata, setolddata] = useState([])
@@ -28,7 +30,9 @@ const SignUp = () => {
 
   const getData = (d) => {
     axios.post('https://drybar-backside.onrender.com/accData', { d })
-      .then(res => console.log(res.data))
+      .then(res => {
+        console.log(res.data)
+      })
       .catch(err => console.log(err))
   };
 
@@ -40,6 +44,7 @@ const SignUp = () => {
   const checkUser = () => {
     axios.get('https://drybar-backside.onrender.com/accData')
       .then(res => {
+        setisloading(false)
         res.data.map((el) => {
           if (data.email == el.d.email) {
             isSameEmail = true;
@@ -72,12 +77,14 @@ const SignUp = () => {
       <div className="d-flex justify-content-center align-items-center">
         <div className="border">
           <h4>Sign Up</h4>
-          <form onSubmit={handleSubmit} action="">
-            <input required onChange={handleChange} name='email' type="email" placeholder='Enter Your Email' />
-            <input required onChange={handleChange} name='tel' type="tel" className='mt-4' placeholder='Enter Your phone' />
-            <input required onChange={handleChange} name='password' className='mt-4' type="password" placeholder='Enter Your Password' />
-            <input className='mt-4 btn' type="submit" value="Sign Up" />
-          </form>
+          {loading ?
+            <Loading /> :
+            <form onSubmit={handleSubmit} action="">
+              <input required onChange={handleChange} name='email' type="email" placeholder='Enter Your Email' />
+              <input required onChange={handleChange} name='tel' type="tel" className='mt-4' placeholder='Enter Your phone' />
+              <input required onChange={handleChange} name='password' className='mt-4' type="password" placeholder='Enter Your Password' />
+              <input className='mt-4 btn' type="submit" value="Sign Up" />
+            </form>}
           <Link to={"/login"}><p className='mt-2'>Have An Account?</p></Link>
         </div>
       </div>
