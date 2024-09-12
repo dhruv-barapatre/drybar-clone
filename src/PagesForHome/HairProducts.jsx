@@ -12,7 +12,7 @@ const HairProducts = () => {
     const [page, setpage] = useState(1)
     let limit = 6;
     const fetchData = () => {
-        fetch(`http://localhost:3000/hair-products?_limit=${limit}&_page=${page}`)
+        fetch(`https://drybar-backside.onrender.com/hair-products?_limit=${limit}&_page=${page}`)
             .then(res => res.json())
             .then(data => {
                 setServer(data);
@@ -60,7 +60,7 @@ const HairProducts = () => {
     };
 
     const handleCart = (el) => {
-        fetch("http://localhost:3000/cart", {
+        fetch("https://drybar-backside.onrender.com/cart", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

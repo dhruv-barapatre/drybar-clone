@@ -27,7 +27,7 @@ const SignUp = () => {
   };
 
   const getData = (d) => {
-    axios.post('http://localhost:3000/accData', { d })
+    axios.post('https://drybar-backside.onrender.com/accData', { d })
       .then(res => console.log(res.data))
       .catch(err => console.log(err))
   };
@@ -38,7 +38,7 @@ const SignUp = () => {
 
 
   const checkUser = () => {
-    axios.get('http://localhost:3000/accData')
+    axios.get('https://drybar-backside.onrender.com/accData')
       .then(res => {
         res.data.map((el) => {
           if (data.email == el.d.email) {

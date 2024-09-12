@@ -23,7 +23,7 @@ const Login = () => {
   }
 
   const getData = () => {
-    axios.get("http://localhost:3000/accData")
+    axios.get("https://drybar-backside.onrender.com/accData")
       .then(res => {
         setaccdata(res.data)
         console.log(res.data)

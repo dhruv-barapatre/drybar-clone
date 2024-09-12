@@ -13,7 +13,7 @@ const Navbar = () => {
   const [cart, setcart] = useState(0)
   const [sum, setsum] = useState(0)
   const GetData = () => {
-    axios.get("http://localhost:3000/cart")
+    axios.get("https://drybar-backside.onrender.com/cart")
       .then(res => {
         Setdata(res.data)
         TotalCost(res.data)
@@ -24,7 +24,7 @@ const Navbar = () => {
       })
   }
   const delData = (id) => {
-    axios.delete(`http://localhost:3000/cart/${id}`)
+    axios.delete(`https://drybar-backside.onrender.com/cart/${id}`)
       .then(res => {
         alert("Item Delted Succesfully")
         GetData()
